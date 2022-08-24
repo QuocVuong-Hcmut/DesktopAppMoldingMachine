@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resources\Components\ButtonMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Resources\Components\ChartObservate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Resources\Components\MachineInformationDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Resources\Components\MayNho.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AlertView\AlertView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HelpView\HelpView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HistoryView\HistoryView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\LoginView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ManageView\EmployeeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ManageView\ManageView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ManageView\MoldView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ManageView\ProductView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ObservationView\ObservateView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ObservationView\ObservationDetailMachinePage1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ObservationView\ObservationDetailMachinePage2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ObservationView\ObservationDetailMachinePage3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ObservationView\ObservationDetailMachinePage4.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ObservationView\ObservationDetailMachinePage5.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ObservationView\ObservationDetailMachinePage6.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ObservationView\ObservationDetailMachinePage7.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ObservationView\ObservationDetailMachineView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ObservationView\ObservationMachineView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ReportView\BillExportWareHouseView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ReportView\ExportExcelView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ReportView\ReportObversationEmployee.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ReportView\ReportShiftView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ReportView\ReportView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SettingView\SettingsNewView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SettingView\SettingsPreviousView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SettingView\SettingsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Components\ButtonMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Components\ChartObservate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Components\MachineInformationDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Components\MayNho.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\ResourceDictionary\ResourceViewModel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Styles\ButtonMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Styles\ColorTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Styles\DataGrid.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Styles\DropShadow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Styles\ScrollBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AlertView\AlertView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HelpView\HelpView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HistoryView\HistoryView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\LoginView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ManageView\EmployeeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ManageView\ManageView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ManageView\MoldView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ManageView\ProductView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ObservationView\ObservateView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ObservationView\ObservationDetailMachinePage1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ObservationView\ObservationDetailMachinePage2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ObservationView\ObservationDetailMachinePage3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ObservationView\ObservationDetailMachinePage4.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ObservationView\ObservationDetailMachinePage5.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ObservationView\ObservationDetailMachinePage6.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ObservationView\ObservationDetailMachinePage7.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ObservationView\ObservationDetailMachineView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ObservationView\ObservationMachineView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ReportView\BillExportWareHouseView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ReportView\ExportExcelView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ReportView\ReportObversationEmployee.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ReportView\ReportShiftView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ReportView\ReportView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SettingView\SettingsNewView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SettingView\SettingsPreviousView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SettingView\SettingsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

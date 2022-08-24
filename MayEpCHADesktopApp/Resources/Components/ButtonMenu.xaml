@@ -1,0 +1,99 @@
+﻿
+<UserControl x:Class="MayEpCHADesktopApp.Resources.Components.ButtonMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             x:Name="Root"
+             Background="{Binding ElementName=Root, Path=BackgroundBTMenu}"
+             xmlns:Converter="clr-namespace:MayEpCHADesktopApp.Core.ValueConverter;assembly=MayEpCHADesktopApp.Core"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             d:DesignHeight="120"
+             d:DesignWidth="400">
+    <Grid  Height="{Binding ElementName=Root, Path=ActualHeight}"
+           Width="{Binding ElementName=Root, Path=ActualWidth}">
+        <Grid.Style>
+            <Style TargetType="Grid">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding ElementName=Root,Path=IsMouseOver}"
+                                 Value="True">
+                        <Setter Property="Background"
+                                Value="DeepSkyBlue"></Setter>
+                        <Setter Property="Opacity"
+                                Value="50" />
+                    </DataTrigger>
+                </Style.Triggers>
+            </Style>
+        </Grid.Style>
+        <Button x:Name="MainButton"
+                Height="{Binding ElementName=Root, Path=ActualHeight}"
+                Width="{Binding ElementName=Root, Path=ActualWidth}"
+                Click="OnClick"
+                Background="Transparent"
+                Style="{StaticResource ResourceKey=MenuButton}"
+                BorderThickness="0 0 8 0 "
+                BorderBrush="{Binding Path=BoderBrushBTMenu, ElementName=Root}">
+            <Button.Content>
+                <Grid Visibility="Visible"
+                      Background="Transparent"
+                      Height="{Binding ElementName=Root, Path=ActualHeight}"
+                      Width="{Binding ElementName=Root, Path=ActualWidth}">
+                    <Grid x:Name="GridNoClick"
+                          Visibility="{Binding ElementName=Root, Path=Animation1, Converter={StaticResource BooleanToVisibilityConverter}}"
+                          Background="Transparent"
+                          Height="{Binding ElementName=Root, Path=ActualHeight}"
+                          Width="{Binding ElementName=Root, Path=ActualWidth}">
+                        <StackPanel Background="Transparent"
+                                    Height="{Binding ElementName=Root, Path=ActualHeight}"
+                                    Width="{Binding ElementName=Root, Path=ActualWidth}"
+                                    Orientation="Horizontal">
+                            <materialDesign:PackIcon  Height="{Binding ElementName=Root, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.8}"
+                                                      Width="{Binding ElementName=Root, Path=ActualWidth , Converter={Converter:SizeConverter}, ConverterParameter=0.3}"
+                                                      Foreground="{Binding Path=ForegroundPackicon, ElementName=Root}"
+                                                      Margin="0 5 0 -5"
+                                                      Kind="{Binding  Path=NamePackIcon, ElementName=Root}"></materialDesign:PackIcon>
+                            <Label Content="{Binding ElementName=Root, Path=ContentText}"
+                                   Height="{Binding ElementName=Root, Path=ActualHeight}"
+                                   Width="{Binding ElementName=Root, Path=ActualWidth, Converter={Converter:SizeConverter},ConverterParameter=0.7}"
+                                   FontSize="{Binding ElementName=Root, Path=ActualHeight, Converter={Converter:SizeConverter},ConverterParameter=0.35}"
+                                   Background="Transparent"
+                                   Foreground="{Binding Path=ForegroundText, ElementName=Root}"
+                                   HorizontalContentAlignment="Left"
+                                   VerticalContentAlignment="Center"></Label>
+                        </StackPanel>
+                    </Grid>
+                    <Grid  x:Name="GridClick"
+                           Visibility="{Binding ElementName=Root, Path=Animation2, Converter={StaticResource BooleanToVisibilityConverter}}"
+                           Background="Transparent"
+                           Height="{Binding ElementName=Root, Path=ActualHeight}"
+                           Width="{Binding ElementName=Root, Path=ActualWidth}">
+                        <StackPanel  Background="Transparent"
+                                     Height="{Binding ElementName=Root, Path=ActualHeight}"
+                                     Width="{Binding ElementName=Root, Path=ActualWidth}"
+                                     Orientation="Horizontal">
+                            <Label Content="{Binding ElementName=Root, Path=ContentText}"
+                                   Height="{Binding ElementName=Root, Path=ActualHeight}"
+                                   Margin="0 -5 0 5 "
+                                   Width="184"
+                                   FontSize="{Binding ElementName=Root, Path=ActualHeight, Converter={Converter:SizeConverter},ConverterParameter=0.4}"
+                                   Background="Transparent"
+                                   Foreground="White"
+                                   HorizontalContentAlignment="Center"
+                                   VerticalContentAlignment="Center"></Label>
+                            <materialDesign:PackIcon   Height="{Binding ElementName=Root, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.8}"
+                                                       Width="{Binding ElementName=Root, Path=ActualWidth , Converter={Converter:SizeConverter}, ConverterParameter=0.3}"
+                                                       Foreground="White"
+                                                       Margin="0 0 0 0"
+                                                       Kind="{Binding  Path=NamePackIcon, ElementName=Root}"></materialDesign:PackIcon>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </Button.Content>
+        </Button>
+        <Rectangle Height="1"
+                   Width="{Binding ElementName=Root, Path=ActualWidth}"
+                   VerticalAlignment="Bottom"
+                   Fill="#FF838156"></Rectangle>
+    </Grid>
+</UserControl>

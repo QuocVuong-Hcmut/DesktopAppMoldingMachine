@@ -1,0 +1,150 @@
+﻿
+
+<UserControl x:Class="MayEpCHADesktopApp.Views.SettingView.SettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:components="clr-namespace:MayEpCHADesktopApp.Resources.Components"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:Converter="clr-namespace:MayEpCHADesktopApp.Core.ValueConverter;assembly=MayEpCHADesktopApp.Core"
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+             xmlns:viewmodel="clr-namespace:MayEpCHADesktopApp.Core.ViewModels.SettingsViewModels;assembly=MayEpCHADesktopApp.Core"
+             xmlns:view ="clr-namespace:MayEpCHADesktopApp.Views.SettingView"
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
+             TextElement.FontWeight="Regular"
+             TextElement.FontSize="13"
+             TextOptions.TextFormattingMode="Ideal"
+             TextOptions.TextRenderingMode="Auto"
+             Background="{DynamicResource MaterialDesignPaper}"
+             FontFamily="{DynamicResource MaterialDesignFont}"
+             mc:Ignorable="d"
+             Height="824"
+             Width="1267.2"
+             x:Name="Setting"
+             >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.8*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" x:Name="gr">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Rectangle Fill="White"></Rectangle>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Button Style="{StaticResource ButtonNormal}"
+                        Background="#FF00294D"                                           
+                        FontSize="25"
+                        Command="{Binding SettingsPrevious}"
+                        Content="Thông số cài đặt ca hiện tại"
+                        Height="{Binding ElementName=gr, Path=ActualHeight}"
+                                              
+                                  >
+                    <Button.Effect>
+                        <DropShadowEffect
+                            ShadowDepth="5"
+                             Direction="270"
+                             Color="Black"
+                             Opacity="0.5"
+                             BlurRadius="50"/>
+                    </Button.Effect>
+                </Button>
+                <Button Style="{StaticResource ButtonNormal}"
+                        Background="DeepSkyBlue"                                           
+                        FontSize="25"
+                        Command="{Binding SettingsPrevious}"
+                        Content="Thông số cài đặt ca hiện tại"
+                        Height="{Binding ElementName=gr, Path=ActualHeight}"
+                        Visibility="{Binding IsCurrentSettings, Converter={StaticResource BooleanToVisibilityConverter}}"                     
+                                  >
+                    <Button.Effect>
+                        <DropShadowEffect
+                            ShadowDepth="5"
+                             Direction="270"
+                             Color="Black"
+                             Opacity="0.5"
+                             BlurRadius="50"/>
+                    </Button.Effect>
+                </Button>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Rectangle Fill="White"></Rectangle>
+            </Grid>
+            <Grid Grid.Column="3">
+                <Button Style="{StaticResource ButtonNormal}"
+                        Background="#FF00294D"                                           
+                        FontSize="25"
+                        Command="{Binding SettingsNew}"
+                        Content="Cài đặt sản xuất"
+                        Height="{Binding ElementName=gr, Path=ActualHeight}"
+                                              
+                                  >
+                    <Button.Effect>
+                        <DropShadowEffect
+                            ShadowDepth="5"
+                             Direction="270"
+                             Color="Black"
+                             Opacity="0.5"
+                             BlurRadius="50"/>
+                    </Button.Effect>
+                </Button>
+                <Button Style="{StaticResource ButtonNormal}"
+                        Background="DeepSkyBlue"                                           
+                        FontSize="25"
+                        Command="{Binding SettingsPrevious}"
+                        Content="Cài đặt sản xuất"
+                        Height="{Binding ElementName=gr, Path=ActualHeight}"
+                        Visibility="{Binding IsNewSettings, Converter={StaticResource BooleanToVisibilityConverter}}"    >
+                    <Button.Effect>
+                        <DropShadowEffect
+                            ShadowDepth="5"
+                             Direction="270"
+                             Color="Black"
+                             Opacity="0.5"
+                             BlurRadius="50"/>
+                    </Button.Effect>
+
+                </Button>                 
+                                  
+            </Grid>
+            <Grid Grid.Column="4">
+                <Rectangle Fill="White"></Rectangle>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Viewbox x:Name="panel_Menu"
+                 Grid.Column="1"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Top"
+                 Stretch="Fill">
+
+
+                <ContentControl x:Name="ViewPanel" Content="{Binding CurrentViewModel}">
+                    <ContentControl.Resources>
+                        <DataTemplate DataType="{x:Type viewmodel:SettingsNewViewModel}">
+                            <view:SettingsNewView />
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type viewmodel:SettingsPreviousViewModel}">
+                            <view:SettingsPreviousView />
+                        </DataTemplate>
+
+                    </ContentControl.Resources>
+                </ContentControl>
+            </Viewbox>
+        </Grid>
+      
+        
+    </Grid>
+    
+</UserControl>
+
+    

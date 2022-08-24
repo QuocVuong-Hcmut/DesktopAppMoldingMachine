@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MayEpCHADesktopApp", "MayEpCHADesktopApp.csproj", "{BDCDED7E-E47C-4563-A08E-59FDBC2E133F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MayEpCHADesktopApp.Core", "..\MayEpCHADesktopApp.Core\MayEpCHADesktopApp.Core.csproj", "{0396982E-4250-4E50-9EE5-C4F68DE4F66A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDCDED7E-E47C-4563-A08E-59FDBC2E133F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCDED7E-E47C-4563-A08E-59FDBC2E133F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCDED7E-E47C-4563-A08E-59FDBC2E133F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCDED7E-E47C-4563-A08E-59FDBC2E133F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0396982E-4250-4E50-9EE5-C4F68DE4F66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0396982E-4250-4E50-9EE5-C4F68DE4F66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0396982E-4250-4E50-9EE5-C4F68DE4F66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0396982E-4250-4E50-9EE5-C4F68DE4F66A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2F43CC5-E899-4CF8-9BD5-56645B8EB6DE}
+	EndGlobalSection
+EndGlobal

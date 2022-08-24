@@ -1,0 +1,250 @@
+﻿
+
+
+<UserControl x:Class="MayEpCHADesktopApp.Views.ReportView.ReportView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:components="clr-namespace:MayEpCHADesktopApp.Resources.Components"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:Converter="clr-namespace:MayEpCHADesktopApp.Core.ValueConverter;assembly=MayEpCHADesktopApp.Core"
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+             xmlns:view ="clr-namespace:MayEpCHADesktopApp.Views.ReportView"
+             xmlns:viewmodel="clr-namespace:MayEpCHADesktopApp.Core.ViewModels.ReportViewModels;assembly=MayEpCHADesktopApp.Core"
+             TextElement.FontWeight="Regular"
+             TextElement.FontSize="13"
+             TextOptions.TextFormattingMode="Ideal"
+             TextOptions.TextRenderingMode="Auto"
+             Background="{DynamicResource MaterialDesignPaper}"
+             FontFamily="{DynamicResource MaterialDesignFont}"
+             mc:Ignorable="d"
+             Height="824"
+             Width="1267.2"
+             
+             >
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.8*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Style="{x:Null}"
+                    Grid.Row="0"
+                    Orientation="Horizontal">
+            <Rectangle Width="2"
+                       Fill="White"></Rectangle>
+            <Grid>
+                <Button Style="{StaticResource ButtonNormal}"
+                    Width="251"
+                    Content="Báo cáo cuối ca "
+                    Command="{Binding ReportShiftCommand}"
+                    FontSize="25">
+                    <Button.Effect>
+                        <DropShadowEffect
+                            ShadowDepth="5"
+                             Direction="270"
+                             Color="Black"
+                             Opacity="0.5"
+                             BlurRadius="50"/>
+                    </Button.Effect>
+                </Button>
+                <Button Style="{StaticResource ButtonNormal}"
+                    Width="251"
+                    Background="DeepSkyBlue"
+                    Content="Báo cáo cuối ca "
+                    Visibility="{Binding IsShift, Converter={StaticResource BooleanToVisibilityConverter}}"
+                    Command="{Binding ReportShiftCommand}"
+                    FontSize="25">
+                    <Button.Effect>
+                        <DropShadowEffect
+                            ShadowDepth="5"
+                             Direction="270"
+                             Color="Black"
+                             Opacity="0.53"
+                             BlurRadius="50"/>
+                    </Button.Effect>
+
+
+
+
+                </Button>
+            </Grid>
+          
+            <Rectangle Width="2"
+                       Fill="White"></Rectangle>
+            <Grid>
+                <Button Style="{StaticResource ButtonNormal}"
+                    Width="251"
+                    Content="Giám sát công nhân"
+                    FontSize="25"
+                    Command="{Binding ReportEmployeeCommand}">
+                    <Button.Effect>
+                        <DropShadowEffect
+                            ShadowDepth="5"
+                             Direction="270"
+                             Color="Black"
+                             Opacity="0.5"
+                             BlurRadius="50"/>
+                    </Button.Effect>
+                </Button>
+                <Button Style="{StaticResource ButtonNormal}"
+                    Width="251"
+                    Background="DeepSkyBlue"
+                    Content="Giám sát công nhân"
+                    Visibility="{Binding IsObservation, Converter={StaticResource BooleanToVisibilityConverter}}"
+
+                    Command="{Binding ReportEmployeeCommand}"
+                    FontSize="25">
+                    <Button.Effect>
+                        <DropShadowEffect
+                            ShadowDepth="5"
+                             Direction="270"
+                             Color="Black"
+                             Opacity="0.53"
+                             BlurRadius="50"/>
+                    </Button.Effect>
+
+
+                </Button>
+            </Grid>
+           
+            <Rectangle Width="2"
+                       Fill="White"></Rectangle>
+            <Grid>
+                <Button Style="{StaticResource ButtonNormal}"
+                    Width="251"
+                    Content="Báo cáo sản xuất"
+                    FontSize="25"
+                    Command="{Binding ReportExcelCommand}">
+                    <Button.Effect>
+                        <DropShadowEffect
+                            ShadowDepth="5"
+                             Direction="270"
+                             Color="Black"
+                             Opacity="0.53"
+                             BlurRadius="50"/>
+                    </Button.Effect>
+                </Button>
+                <Button Style="{StaticResource ButtonNormal}"
+                    Width="251"
+                    Background="DeepSkyBlue"
+                    Content="Báo cáo sản xuất"
+                    Visibility="{Binding IsExcel, Converter={StaticResource BooleanToVisibilityConverter}}"
+                       
+                    Command="{Binding ReportEmployeeCommand}"
+                    FontSize="25">
+                    <Button.Effect>
+                        <DropShadowEffect
+                            ShadowDepth="5"
+                             Direction="270"
+                             Color="Black"
+                             Opacity="0.55"
+                             BlurRadius="50"/>
+                    </Button.Effect>
+
+
+                </Button>
+            </Grid>
+           
+            <Rectangle Width="2"
+                       Fill="White"></Rectangle>
+            <Grid>
+                <Button Style="{StaticResource ButtonNormal}"
+                    Width="251"
+                    Content="Phiếu nhập kho"
+                    FontSize="25"
+                    Command="{Binding ReportExportWareHouseCommand}">
+                    <Button.Effect>
+                        <DropShadowEffect
+                            ShadowDepth="5"
+                             Direction="270"
+                             Color="Black"
+                             Opacity="0.53"
+                             BlurRadius="50"/>
+                    </Button.Effect>
+                </Button>
+                <Button Style="{StaticResource ButtonNormal}"
+                    Width="251"
+                    Background="DeepSkyBlue"
+                    Content="Phiếu nhập kho"
+                    Visibility="{Binding IsBillWareHouse, Converter={StaticResource BooleanToVisibilityConverter}}"
+                       
+                    Command="{Binding ReportExportWareHouseCommand}"
+                    FontSize="25">
+                    <Button.Effect>
+                        <DropShadowEffect
+                            ShadowDepth="5"
+                             Direction="270"
+                             Color="Black"
+                             Opacity="0.55"
+                             BlurRadius="50"/>
+                    </Button.Effect>
+
+
+                </Button>
+            </Grid>
+            <Rectangle Width="2"
+                       Fill="White"></Rectangle>
+            <Button 
+                    Width="251"
+                    Content="Kết thúc ca"
+                    FontSize="25"
+                    Command="{Binding ObservationDetailMachineCommand}">
+                <Button.Style>
+                    <Style TargetType="Button"
+                           BasedOn="{StaticResource ButtonNormal}">
+                        
+                            <Style.Triggers>
+                                <EventTrigger RoutedEvent="MouseLeftButtonDown">
+                                <EventTrigger.Actions>
+                                    <SoundPlayerAction Source="ClickMouse - Copy.wav" />
+                                </EventTrigger.Actions>
+                                
+                                </EventTrigger>
+                            </Style.Triggers>
+                       
+                    </Style>
+                </Button.Style>
+                <Button.Effect>
+                    <DropShadowEffect
+                            ShadowDepth="5"
+                             Direction="270"
+                             Color="Black"
+                             Opacity="0.5"
+                             BlurRadius="50"/>
+                </Button.Effect>
+            </Button>
+            <Rectangle Width="2"
+                       Fill="White"></Rectangle>
+        </StackPanel>
+        <Grid Grid.Row="1" Margin=" 0 15 0 0 ">
+            <Viewbox x:Name="panel_Menu"
+                 Grid.Column="1"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Top"
+                 Stretch="Fill">
+
+
+                <ContentControl x:Name="ViewPanel" Content="{Binding CurrentViewModel}">
+                    <ContentControl.Resources>
+                        <DataTemplate DataType="{x:Type viewmodel:ReportShiftViewModel}">
+                            <view:ReportShiftView />
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type viewmodel:ReportObservateViewModel}">
+                            <view:ReportObversationEmployee />
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type viewmodel:ReportExportExcelViewModel}">
+                            <view:ExportExcelView />
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type viewmodel:ReportBillExportWareHouseViewModel}">
+                            <view:BillExportWareHouseView />
+                        </DataTemplate>
+
+                    </ContentControl.Resources>
+                </ContentControl>
+            </Viewbox>
+        </Grid>
+    </Grid>
+</UserControl>
+

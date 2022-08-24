@@ -1,0 +1,112 @@
+﻿<UserControl x:Class="MayEpCHADesktopApp.Views.ReportView.ReportObversationEmployee"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:components="clr-namespace:MayEpCHADesktopApp.Resources.Components"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:Converter="clr-namespace:MayEpCHADesktopApp.Core.ValueConverter;assembly=MayEpCHADesktopApp.Core"
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
+             xmlns:chart="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             x:Name="ob"
+             TextElement.FontWeight="Regular"
+             TextElement.FontSize="13"
+             TextOptions.TextFormattingMode="Ideal"
+             TextOptions.TextRenderingMode="Auto"
+             Background="{DynamicResource MaterialDesignPaper}"
+             FontFamily="{DynamicResource MaterialDesignFont}"
+             mc:Ignorable="d"
+             Height="824"
+             Width="1267.2">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.78*" />
+            <RowDefinition Height="0.7*" />
+            <RowDefinition Height="4.5*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <materialDesign:Card Margin="0 0 0 5 ">
+                <StackPanel Orientation="Horizontal">
+                    <DatePicker materialDesign:HintAssist.Hint="Ngày bắt đầu"
+                                FlowDirection="LeftToRight"
+                                Height="{Binding ElementName=Gr1, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.8}"
+                                FontSize="25"
+                                SelectedDate="{Binding DateTimeStart}"
+                                Margin="20,0,3,0"
+                                Width="200" />
+                    <DatePicker materialDesign:HintAssist.Hint="Ngày kết thúc"
+                                FlowDirection="LeftToRight"
+                                Height="{Binding ElementName=Gr1, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.8}"
+                                FontSize="25"
+                                SelectedDate="{Binding DateTimeStop}"
+                                Margin="50,0,3,0"
+                                Width="200" />
+                    <Label FontSize="25"
+                           Margin="50 0 3 0"
+                           HorizontalAlignment="Left"
+                           Height="{Binding ElementName=Gr1, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.8}"
+                           VerticalAlignment="Center">Công nhân:</Label>
+                    <ComboBox Width="229"
+                              Margin="10 0 0 0"
+                              BorderThickness="1"
+                              IsEditable="True"
+                              Padding="20 5 5 5"
+                              ItemsSource="{Binding ListEmployee}"
+                              SelectedItem="{Binding Employee}"
+                              DisplayMemberPath="Id"
+                              Height="{Binding ElementName=Gr1, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.8}"
+                              materialDesign:HintAssist.Hint="Chọn công nhân"
+                              FontSize="25"></ComboBox>
+                </StackPanel>
+            </materialDesign:Card>
+        </Grid>
+        <Grid Grid.Row="1">
+            <materialDesign:Card Margin="0 5">
+                <StackPanel Orientation="Horizontal">
+                    <Button Style="{DynamicResource RaiseButton}"
+                            Background="#FF00294D"
+                            Width="200"
+                            Height="60"
+                            FontSize="28"
+                            Margin="20 0 0 0"
+                            Command="{Binding LoadChartCommand}"
+                            CommandParameter="{Binding ElementName=st1}">Truy Xuất</Button>
+                    <Button Style="{DynamicResource RaiseButton}"
+                            Background="#FF00294D"
+                            Width="200"
+                            Height="60"
+                            FontSize="28"
+                            Margin="20 0 0 0">Xuất EXCEL</Button>
+                    <Button Style="{DynamicResource RaiseButton}"
+                            Background="#FF00294D"
+                            Width="200"
+                            Height="60"
+                            FontSize="28"
+                            Margin="20 0 0 0">Xuất PDF</Button>
+                </StackPanel>
+            </materialDesign:Card>
+        </Grid>
+        <materialDesign:Card Grid.Row="2"
+                             Margin="0 5 0 10">
+            <ScrollViewer>
+                <Grid>
+                    <StackPanel Name="st1"
+                                Width="{Binding ElementName=ob, Path=ActualWidth, Converter={Converter:SizeConverter}, ConverterParameter=0.95}"
+                                HorizontalAlignment="Left"
+                                Margin="26 3 0 10"></StackPanel>
+                    <!--<StackPanel Name="st2"  Width="{Binding ElementName=ob, Path=ActualWidth, Converter={Converter:SizeConverter}, ConverterParameter=0.495}"
+                        HorizontalAlignment="Right"
+                        Margin="5 3 0 10">
+
+
+
+                    </StackPanel>-->
+                </Grid>
+            </ScrollViewer>
+        </materialDesign:Card>
+    </Grid>
+</UserControl>
+
+

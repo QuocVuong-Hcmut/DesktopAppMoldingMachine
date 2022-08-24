@@ -1,0 +1,186 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\SISTRAIN\\WPF\\App SISTRAIN\\Offical\\MayEpCHADesktopApp\\MayEpCHADesktopApp.csproj": {}
+  },
+  "projects": {
+    "D:\\SISTRAIN\\WPF\\App SISTRAIN\\Offical\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SISTRAIN\\WPF\\App SISTRAIN\\Offical\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj",
+        "projectName": "MayEpCHADesktopApp.Core",
+        "projectPath": "D:\\SISTRAIN\\WPF\\App SISTRAIN\\Offical\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj",
+        "packagesPath": "C:\\Users\\Quoc Vuong\\.nuget\\packages\\",
+        "outputPath": "D:\\SISTRAIN\\WPF\\App SISTRAIN\\Offical\\MayEpCHADesktopApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Quoc Vuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "FontAwesome": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "FontAwesome.WPF": {
+              "target": "Package",
+              "version": "[4.7.0.9, )"
+            },
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.39, )"
+            },
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "System.Interactive.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SISTRAIN\\WPF\\App SISTRAIN\\Offical\\MayEpCHADesktopApp\\MayEpCHADesktopApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SISTRAIN\\WPF\\App SISTRAIN\\Offical\\MayEpCHADesktopApp\\MayEpCHADesktopApp.csproj",
+        "projectName": "MayEpCHADesktopApp",
+        "projectPath": "D:\\SISTRAIN\\WPF\\App SISTRAIN\\Offical\\MayEpCHADesktopApp\\MayEpCHADesktopApp.csproj",
+        "packagesPath": "C:\\Users\\Quoc Vuong\\.nuget\\packages\\",
+        "outputPath": "D:\\SISTRAIN\\WPF\\App SISTRAIN\\Offical\\MayEpCHADesktopApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Quoc Vuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\SISTRAIN\\WPF\\App SISTRAIN\\Offical\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj": {
+                "projectPath": "D:\\SISTRAIN\\WPF\\App SISTRAIN\\Offical\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "FontAwesome": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "FontAwesome.WPF": {
+              "target": "Package",
+              "version": "[4.7.0.9, )"
+            },
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "System.Interactive.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

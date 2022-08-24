@@ -1,0 +1,180 @@
+﻿<UserControl x:Class="MayEpCHADesktopApp.Views.ObservationView.ObservationDetailMachineView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+              xmlns:components="clr-namespace:MayEpCHADesktopApp.Resources.Components"
+             xmlns:viewmodel="clr-namespace:MayEpCHADesktopApp.Core.ViewModels.ObservationViewModel;assembly=MayEpCHADesktopApp.Core"
+             xmlns:view="clr-namespace:MayEpCHADesktopApp.Views.ObservationView"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:Converter="clr-namespace:MayEpCHADesktopApp.Core.ValueConverter;assembly=MayEpCHADesktopApp.Core"
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+             TextElement.FontWeight="Regular"
+             TextElement.FontSize="13"
+             TextOptions.TextFormattingMode="Ideal"
+             TextOptions.TextRenderingMode="Auto"
+             Background="{DynamicResource MaterialDesignPaper}"
+             FontFamily="{DynamicResource MaterialDesignFont}"
+             mc:Ignorable="d"
+             Height="824"
+             Width="1267.2"
+             x:Name="ULogin">
+    <Grid>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+               VerticalAlignment="Bottom"
+               Margin="0 10">
+            <Label FontSize="25"
+                   Content="Trang"
+               >
+                <Label.Effect>
+                    <DropShadowEffect
+                        ShadowDepth="2"
+                        Direction="270"
+                        Color="Black"
+                        Opacity="0.5"
+                        BlurRadius="4"/>
+                </Label.Effect>
+            </Label>
+            <Label FontSize="25"
+                   Content="{Binding Page}"
+               >
+                <Label.Effect>
+                    <DropShadowEffect
+                        ShadowDepth="2"
+                        Direction="270"
+                        Color="Black"
+                        Opacity="0.5"
+                        BlurRadius="4"/>
+                </Label.Effect>
+
+            </Label>
+        </StackPanel>
+
+        <StackPanel 
+            VerticalAlignment="Bottom"
+            HorizontalAlignment="Right"
+            Orientation="Horizontal"
+            Margin="10 10 ">
+            <Button
+                Style="{DynamicResource RaiseButton}"
+                materialDesign:ShadowAssist.ShadowDepth="Depth5"
+                Width="80"
+                Foreground="White"
+                Height="45"
+                Background="DeepSkyBlue"
+                Command="{Binding GoBackDoubleUnitCommand}"
+                Margin="5 5 5 5"
+            >
+                <materialDesign:PackIcon
+                    Kind="ChevronDoubleLeft"
+                    Width="52"
+                    Height="40"
+                    Padding="7 -45 0 7">
+
+                </materialDesign:PackIcon>
+            </Button>
+            <Button
+                Style="{DynamicResource RaiseButton}"
+                materialDesign:ShadowAssist.ShadowDepth="Depth5"
+                Width="80"
+                Foreground="White"
+                Background="DeepSkyBlue"
+                Height="45"
+                Command="{Binding GoBackUnitCommand}"
+                Margin="5 5 5 5"
+            >
+                <materialDesign:PackIcon
+                    Kind="ChevronLeft"
+                    Width="52"
+                    Height="40"
+                    Padding="7 -45 0 7">
+
+                </materialDesign:PackIcon>
+            </Button>
+            <Button
+                Style="{DynamicResource RaiseButton}"
+                materialDesign:ShadowAssist.ShadowDepth="Depth5"
+                Command="{Binding GoToUnitCommand}"
+                Width="80"
+                Height="45"
+                Foreground="White"
+                Background="DeepSkyBlue"
+                Margin="5 5 5 5"
+            >
+                <materialDesign:PackIcon
+                    Kind="ChevronRight"
+                    Width="52"
+                    Height="40"
+                    Padding="7 -45 0 7">
+
+                </materialDesign:PackIcon>
+            </Button>
+            <Button
+                Style="{DynamicResource RaiseButton}"
+                materialDesign:ShadowAssist.ShadowDepth="Depth5"
+                Width="80"
+                Command="{Binding GoToDoubleUnitCommand}"
+                Height="45"
+                Background="DeepSkyBlue"
+                Foreground="White"
+                Margin="5 5 5 5"
+            >
+                <materialDesign:PackIcon
+                    Kind="ChevronDoubleRight"
+                    Width="52"
+                    Height="40"
+                    Padding="7 -45 0 7">
+
+                </materialDesign:PackIcon>
+            </Button>
+
+        </StackPanel>
+
+        <!--page1-->
+
+        <materialDesign:Card Margin="10 10 10 80"
+                         UniformCornerRadius="5"
+                         x:Name="st"
+                         materialDesign:ShadowAssist.ShadowDepth="Depth0">
+            <Viewbox x:Name="panel_Menu"
+                 Grid.Column="1"
+                 Height="720"
+                 VerticalAlignment="Top"
+                 Stretch="Fill">
+
+
+                <ContentControl x:Name="ViewPanel" Content="{Binding CurrentViewModel}">
+                    <ContentControl.Resources>
+                        <DataTemplate DataType="{x:Type viewmodel:ObservationMachinePage1ViewModel}">
+                            <view:ObservationDetailMachinePage1 />
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type viewmodel:ObservationMachinePage2ViewModel}">
+                            <view:ObservationDetailMachinePage2 />
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type viewmodel:ObservationMachinePage3ViewModel}">
+                            <view:ObservationDetailMachinePage3 />
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type viewmodel:ObservationMachinePage4ViewModel}">
+                            <view:ObservationDetailMachinePage4 />
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type viewmodel:ObservationMachinePage5ViewModel}">
+                            <view:ObservationDetailMachinePage5 />
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type viewmodel:ObservationMachinePage6ViewModel}">
+                            <view:ObservationDetailMachinePage6 />
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type viewmodel:ObservationMachinePage7ViewModel}">
+                            <view:ObservationDetailMachinePage7 />
+                        </DataTemplate>
+
+
+
+                    </ContentControl.Resources>
+                </ContentControl>
+            </Viewbox>
+        </materialDesign:Card>
+
+    </Grid>
+</UserControl>

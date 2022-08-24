@@ -1,0 +1,748 @@
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp_Content.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\AlertView\AlertView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\help.png
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Images\BK_Logo.jpg
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Images\CHA_Logo.png
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.exe
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\error.png
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\ErrorIcon.png
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\succes.png
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\warning.png
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Sound\ClickMouse - Copy.wav
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Sound\ClickMouse.mp3
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.deps.json
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.runtimeconfig.json
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.pdb
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\EPPlus.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\EPPlus.Interfaces.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\EPPlus.System.Drawing.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Google.Protobuf.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Core.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Core.Api.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Net.Client.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Net.Common.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\LiveCharts.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.GrpcTransport.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.Newtonsoft.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Console.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Debug.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Newtonsoft.Json.Bson.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Prism.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Prism.Wpf.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\System.Interactive.Async.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\System.Linq.Async.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\System.Text.Json.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libgrpc_csharp_ext.arm64.so
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libgrpc_csharp_ext.x64.so
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libgrpc_csharp_ext.x64.dylib
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\grpc_csharp_ext.x64.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\grpc_csharp_ext.x86.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.Core.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.Core.pdb
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.csproj.AssemblyReference.cache
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ButtonMenu.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MachineInformationDetail.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MayNho.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\ResourceDictionary\ResourceViewModel.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\ButtonMenu.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\ColorTemplate.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\DataGrid.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\DropShadow.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\ScrollBar.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\LoginView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ButtonMenu.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ChartObservate.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MachineInformationDetail.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MayNho.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\AlertView\AlertView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\LoginView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\EmployeeView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ManageView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\MoldView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ProductView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservateView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage1.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage2.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage3.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage4.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage5.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage6.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage7.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachineView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationMachineView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\BillExportWareHouseView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ExportExcelView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportObversationEmployee.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportShiftView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsNewView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsPreviousView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\App.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp_MarkupCompile.cache
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp_MarkupCompile.lref
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\App.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MainWindow.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ChartObservate.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\EmployeeView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ManageView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\MoldView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ProductView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservateView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage1.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage2.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage3.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage4.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage5.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage6.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage7.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachineView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationMachineView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\BillExportWareHouseView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ExportExcelView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportObversationEmployee.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportShiftView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsNewView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsPreviousView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.g.resources
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.AssemblyInfoInputs.cache
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.AssemblyInfo.cs
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.csproj.CoreCompileInputs.cache
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.csproj.CopyComplete
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\refint\MayEpCHADesktopApp.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.pdb
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.genruntimeconfig.cache
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\obj\Debug\net6.0-windows\ref\MayEpCHADesktopApp.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Humanizer.dll
+D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\help.png
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Images\BK_Logo.jpg
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Images\CHA_Logo.png
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.exe
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\error.png
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\ErrorIcon.png
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\succes.png
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\warning.png
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Sound\ClickMouse - Copy.wav
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Sound\ClickMouse.mp3
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.deps.json
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.runtimeconfig.json
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.pdb
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\EPPlus.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\EPPlus.Interfaces.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\EPPlus.System.Drawing.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Google.Protobuf.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Core.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Core.Api.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Net.Client.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Net.Common.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Humanizer.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\LiveCharts.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.GrpcTransport.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.Newtonsoft.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Console.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Debug.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Newtonsoft.Json.Bson.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Prism.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Prism.Wpf.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\System.Interactive.Async.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\System.Linq.Async.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\System.Text.Json.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libgrpc_csharp_ext.arm64.so
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libgrpc_csharp_ext.x64.so
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libgrpc_csharp_ext.x64.dylib
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\grpc_csharp_ext.x64.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\grpc_csharp_ext.x86.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.Core.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.Core.pdb
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.csproj.AssemblyReference.cache
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ButtonMenu.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MachineInformationDetail.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MayNho.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\ResourceDictionary\ResourceViewModel.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\ButtonMenu.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\ColorTemplate.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\DataGrid.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\DropShadow.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\ScrollBar.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\LoginView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ButtonMenu.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ChartObservate.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MachineInformationDetail.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MayNho.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\AlertView\AlertView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\LoginView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\EmployeeView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ManageView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\MoldView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ProductView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservateView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage1.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage2.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage3.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage4.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage5.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage6.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage7.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachineView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationMachineView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\BillExportWareHouseView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ExportExcelView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportObversationEmployee.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportShiftView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsNewView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsPreviousView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsView.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\App.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp_Content.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp_MarkupCompile.cache
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp_MarkupCompile.lref
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\App.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MainWindow.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ChartObservate.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\AlertView\AlertView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\EmployeeView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ManageView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\MoldView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ProductView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservateView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage1.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage2.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage3.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage4.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage5.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage6.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage7.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachineView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationMachineView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\BillExportWareHouseView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ExportExcelView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportObversationEmployee.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportShiftView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsNewView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsPreviousView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsView.baml
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.g.resources
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.AssemblyInfoInputs.cache
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.AssemblyInfo.cs
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.csproj.CoreCompileInputs.cache
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.csproj.CopyComplete
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\refint\MayEpCHADesktopApp.dll
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.pdb
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.genruntimeconfig.cache
+D:\SISTRAIN\WPF\App SISTRAIN\InjectionMoldingMachine\desktop_cha_injection-molding-machine-develop\MayEpCHADesktopApp\obj\Debug\net6.0-windows\ref\MayEpCHADesktopApp.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\help.png
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Images\BK_Logo.jpg
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Images\CHA_Logo.png
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.exe
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\error.png
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\ErrorIcon.png
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\succes.png
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\warning.png
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Sound\ClickMouse - Copy.wav
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Sound\ClickMouse.mp3
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.deps.json
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.runtimeconfig.json
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.pdb
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\EPPlus.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\EPPlus.Interfaces.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\EPPlus.System.Drawing.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Google.Protobuf.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Core.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Core.Api.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Net.Client.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Net.Common.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Humanizer.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\LiveCharts.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.Abstractions.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.GrpcTransport.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.Newtonsoft.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Console.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Debug.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Newtonsoft.Json.Bson.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Prism.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Prism.Wpf.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\System.Interactive.Async.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\System.Linq.Async.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\System.Text.Json.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libgrpc_csharp_ext.arm64.so
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libgrpc_csharp_ext.x64.so
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libgrpc_csharp_ext.x64.dylib
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\grpc_csharp_ext.x64.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\grpc_csharp_ext.x86.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.Core.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.Core.pdb
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.csproj.AssemblyReference.cache
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ButtonMenu.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MachineInformationDetail.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MayNho.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\ResourceDictionary\ResourceViewModel.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\ButtonMenu.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\ColorTemplate.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\DataGrid.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\DropShadow.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\ScrollBar.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\LoginView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ButtonMenu.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ChartObservate.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MachineInformationDetail.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MayNho.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\AlertView\AlertView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\LoginView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\EmployeeView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ManageView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\MoldView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ProductView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservateView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage1.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage2.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage3.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage4.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage5.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage6.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage7.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachineView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationMachineView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\BillExportWareHouseView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ExportExcelView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportObversationEmployee.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportShiftView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsNewView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsPreviousView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsView.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\App.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp_Content.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp_MarkupCompile.cache
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp_MarkupCompile.lref
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\App.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MainWindow.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ChartObservate.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\AlertView\AlertView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\EmployeeView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ManageView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\MoldView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ProductView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservateView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage1.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage2.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage3.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage4.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage5.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage6.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage7.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachineView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationMachineView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\BillExportWareHouseView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ExportExcelView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportObversationEmployee.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportShiftView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsNewView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsPreviousView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsView.baml
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.g.resources
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.AssemblyInfoInputs.cache
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.AssemblyInfo.cs
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.csproj.CoreCompileInputs.cache
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.csproj.CopyComplete
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\refint\MayEpCHADesktopApp.dll
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.pdb
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.genruntimeconfig.cache
+D:\SISTRAIN\Máy ép\Source IMM\Desktop app\Phase2\desktop_cha_injection-molding-machine\MayEpCHADesktopApp\obj\Debug\net6.0-windows\ref\MayEpCHADesktopApp.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\help.png
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Images\BK_Logo.jpg
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Images\CHA_Logo.png
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.exe
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\error.png
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\ErrorIcon.png
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\succes.png
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Assets\warning.png
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Sound\ClickMouse - Copy.wav
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Resources\Sound\ClickMouse.mp3
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.deps.json
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.runtimeconfig.json
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.pdb
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\EPPlus.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\EPPlus.Interfaces.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\EPPlus.System.Drawing.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Google.Protobuf.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Core.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Core.Api.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Net.Client.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Grpc.Net.Common.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Humanizer.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\LiveCharts.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.Abstractions.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.GrpcTransport.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MassTransit.Newtonsoft.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Console.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Debug.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Newtonsoft.Json.Bson.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Prism.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\Prism.Wpf.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\System.Interactive.Async.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\System.Linq.Async.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\System.Text.Json.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libgrpc_csharp_ext.arm64.so
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libgrpc_csharp_ext.x64.so
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libgrpc_csharp_ext.x64.dylib
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\grpc_csharp_ext.x64.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\grpc_csharp_ext.x86.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.Core.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\bin\Debug\net6.0-windows\MayEpCHADesktopApp.Core.pdb
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.csproj.AssemblyReference.cache
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ButtonMenu.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MachineInformationDetail.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MayNho.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\ResourceDictionary\ResourceViewModel.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\ButtonMenu.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\ColorTemplate.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\DataGrid.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\DropShadow.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Styles\ScrollBar.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\LoginView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ButtonMenu.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ChartObservate.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MachineInformationDetail.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\MayNho.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\AlertView\AlertView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\LoginView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\EmployeeView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ManageView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\MoldView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ProductView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservateView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage1.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage2.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage3.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage4.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage5.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage6.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage7.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachineView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationMachineView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\BillExportWareHouseView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ExportExcelView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportObversationEmployee.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportShiftView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsNewView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsPreviousView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\App.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp_Content.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp_MarkupCompile.cache
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp_MarkupCompile.lref
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\App.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MainWindow.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Resources\Components\ChartObservate.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\AlertView\AlertView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\EmployeeView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ManageView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\MoldView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ManageView\ProductView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservateView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage1.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage2.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage3.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage4.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage5.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage6.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachinePage7.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationDetailMachineView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ObservationView\ObservationMachineView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\BillExportWareHouseView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ExportExcelView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportObversationEmployee.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportShiftView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\ReportView\ReportView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsNewView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsPreviousView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\SettingView\SettingsView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.g.resources
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.AssemblyInfoInputs.cache
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.AssemblyInfo.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.csproj.CoreCompileInputs.cache
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.csproj.CopyComplete
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\refint\MayEpCHADesktopApp.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.pdb
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\MayEpCHADesktopApp.genruntimeconfig.cache
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\ref\MayEpCHADesktopApp.dll
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\HelpView\HelpView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\HistoryView\HistoryView.g.cs
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\HelpView\HelpView.baml
+E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\Views\HistoryView\HistoryView.baml

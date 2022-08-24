@@ -1,0 +1,824 @@
+﻿<UserControl x:Class="MayEpCHADesktopApp.Views.SettingView.SettingsNewView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:components="clr-namespace:MayEpCHADesktopApp.Resources.Components"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:Converter="clr-namespace:MayEpCHADesktopApp.Core.ValueConverter;assembly=MayEpCHADesktopApp.Core"
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+             xmlns:viewmodel="clr-namespace:MayEpCHADesktopApp.Core.ViewModels.ObservationViewModel;assembly=MayEpCHADesktopApp.Core"
+             xmlns:view="clr-namespace:MayEpCHADesktopApp.Views.ObservationView"
+             xmlns:fa="http://schemas.fontawesome.io/icons/"
+             TextElement.FontWeight="Regular"
+             TextElement.FontSize="13"
+             TextOptions.TextFormattingMode="Ideal"
+             TextOptions.TextRenderingMode="Auto"
+             Background="{DynamicResource MaterialDesignPaper}"
+             FontFamily="{DynamicResource MaterialDesignFont}"
+             mc:Ignorable="d"
+             Height="824"
+             Width="1267.2">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*" />
+            <RowDefinition Height="5*" />
+        </Grid.RowDefinitions>
+        <materialDesign:Card Grid.Row="0"
+                             x:Name="gr"
+                             Margin="5 5 5 5 "></materialDesign:Card>
+        <materialDesign:Card Grid.Row="1"
+                             Margin="5 10 5 5">
+            <Grid>
+                <!--<Grid Visibility="{Binding IsShift1, Converter={StaticResource BooleanToVisibilityConverter}}" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1.5*"/>
+                        <RowDefinition Height="0.08*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="10*"/>
+                    </Grid.RowDefinitions>
+                    <materialDesign:Card Grid.Row="0" Margin="0 2 0 2">
+                        <Grid>
+                            <Label HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Content="Cài Đặt Thông Tin Sản Xuất Ca 1"
+                   FontSize="38"
+                   FontWeight="SemiBold"
+                   VerticalContentAlignment="Center"/>
+                            <Rectangle
+                Height="2"
+                HorizontalAlignment="Center"
+                 VerticalAlignment="Bottom"
+                Fill="#FF00294D"
+                 Margin="0 0 0 7"
+                Width="{Binding ElementName=Setting, Path=ActualWidth, Converter={Converter:SizeConverter},ConverterParameter=0.9}"></Rectangle>
+
+                        </Grid>
+
+
+                    </materialDesign:Card>
+                    <Grid  Grid.Row="1">
+
+                    </Grid>
+                    <materialDesign:Card Margin="0 10" Grid.Row="2">
+                        <Grid>
+
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="4*"/>
+                                <ColumnDefinition Width="4*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1.*"/>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="1*"/>
+
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0" x:Name="Gr1">
+                                    <Label Content="Ca làm việc:"
+                           FontSize="25"
+                           HorizontalContentAlignment="Left"
+                           Width="250"
+                           HorizontalAlignment="Left"
+                           VerticalContentAlignment="Center"
+                           Margin="20 0"
+                           ></Label>
+                                    <ComboBox materialDesign:HintAssist.Hint="Chọn ca"
+                              FontSize="25"
+                             
+                              Width="250"
+                              Padding="20 4 5 6"
+                              HorizontalAlignment="Right"
+                              Height="{Binding ElementName=Gr1, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.65}">
+
+                                    </ComboBox>
+                                </Grid>
+                                <Grid Grid.Row="1" x:Name="Gr2">
+                                    <Label Content="Máy làm việc:"
+                           FontSize="25"
+                           HorizontalContentAlignment="Left"
+                           Width="250"
+                           Margin="20 0"
+                           HorizontalAlignment="Left"
+                           VerticalContentAlignment="Center"
+                           ></Label>
+                                    <ComboBox Padding="20 4 5 6"
+                              Width="250"
+                                  materialDesign:HintAssist.Hint="Chọn máy"
+                                  FontSize="25"
+                              HorizontalAlignment="Right"
+                              Height="{Binding ElementName=Gr2, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.65}">
+
+                                    </ComboBox>
+                                </Grid>
+                                <Grid Grid.Row="2" x:Name="Gr3">
+                                    <Label Content="Mã sản phẩm:"
+                           FontSize="25"
+                           HorizontalContentAlignment="Left"
+                           Width="250"
+                           Margin="20 0"
+                           HorizontalAlignment="Left"
+                           VerticalContentAlignment="Center"
+                           ></Label>
+                                    <ComboBox Padding="20 4 5 6"
+                              Width="250"
+                                  materialDesign:HintAssist.Hint="Chọn mã"
+                                  FontSize="25"
+                              HorizontalAlignment="Right"
+                              Height="{Binding ElementName=Gr3, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.65}">
+
+                                    </ComboBox>
+                                </Grid>
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1.*"/>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="1*"/>
+
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0" x:Name="Gr4">
+                                    <Label Content="Mã khuôn"
+                           FontSize="25"
+                           HorizontalContentAlignment="Left"
+                           Width="250"
+                           HorizontalAlignment="Left"
+                           VerticalContentAlignment="Center"
+                           Margin="20 0"
+                           ></Label>
+                                    <ComboBox Padding="20 4 5 6"
+                              Width="250"
+                                  materialDesign:HintAssist.Hint="Chọn mã"
+                                  FontSize="25"
+                              HorizontalAlignment="Right"
+                              Height="{Binding ElementName=Gr1, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.65}">
+
+                                    </ComboBox>
+                                </Grid>
+                                <Grid Grid.Row="1" x:Name="Gr5">
+                                    <Label Content="Chu kì ép:"
+                           FontSize="25"
+                           HorizontalContentAlignment="Left"
+                           Width="250"
+                           Margin="20 0"
+                           HorizontalAlignment="Left"
+                           VerticalContentAlignment="Center"
+                           ></Label>
+                                    <ComboBox Padding="20 4 5 6"
+                                  FontSize="25"
+                              Width="250"
+                              HorizontalAlignment="Right"
+                              materialDesign:HintAssist.Hint="Chu kì ép"
+                              Height="{Binding ElementName=Gr2, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.65}">
+
+                                    </ComboBox>
+                                </Grid>
+                                <Grid Grid.Row="2" x:Name="Gr6">
+                                    <Label Content="Số lượng:"
+                           FontSize="25"
+                           HorizontalContentAlignment="Left"
+                           Width="250"
+                           Margin="20 0"
+                           HorizontalAlignment="Left"
+                           VerticalContentAlignment="Center"
+                           ></Label>
+                                    <TextBox Style="{x:Null}"
+                              Width="250"
+                              BorderThickness="1"
+                              HorizontalAlignment="Right"
+                              Height="{Binding ElementName=Gr3, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.55}" Margin="0,0,0,10">
+
+                                    </TextBox>
+                                </Grid>
+                            </Grid>
+                            <StackPanel x:Name="st" Grid.Column="2">
+                                <Button
+                    Style="{StaticResource MaterialDesignRaisedButton}"
+                    Margin="30 10"
+                    Height="55"
+                    Background="#FF00294D"
+                    FontSize="25">
+                                    Xác Nhận
+                                </Button>
+                                <Button
+                    Style="{StaticResource MaterialDesignRaisedButton}"
+                    Margin="30 0"
+                    Height="55"
+                    Background="#FF00294D"
+                    FontSize="25">
+                                    Chỉnh Sửa
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+                    </materialDesign:Card>
+                    <materialDesign:Card Margin="0 5" Grid.Row="3" x:Name="Griddata">
+
+                        <DataGrid 
+                 Style="{StaticResource DataGrid}" 
+                 Width="{Binding ElementName=Griddata, Path=ActualWidth, Converter={Converter:SizeConverter}, ConverterParameter=0.98}"
+                HorizontalAlignment="Center"
+                 Height="{Binding ElementName=Griddata, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.95}"
+                  >
+                            -->
+                <!-- Font Color/ Type of Column Headings -->
+                <!--
+                            <DataGrid.Resources>
+
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+
+                                    <Setter Property="Height" Value="25"></Setter>
+                                    <Setter Property="Height" Value="40"></Setter>
+                                    <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+                                    <Setter Property="Background" Value="#FF00294D"></Setter>
+                                    <Setter Property="Foreground" Value="White"></Setter>
+                                    <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                                </Style>
+
+                            </DataGrid.Resources>
+
+                            <DataGrid.CellStyle>
+
+                                <Style TargetType="DataGridCell">
+
+                                    <Style.Triggers>
+
+                                        <Trigger Property="IsSelected" Value="True">
+
+                                            <Setter Property="Background" Value="White"/>
+
+                                        </Trigger>
+
+                                    </Style.Triggers>
+
+                                </Style>
+
+                            </DataGrid.CellStyle>
+                            <DataGrid.Columns>
+                                <DataGridTextColumn  Width="200" Binding="{Binding employeeID}">
+
+                                    <DataGridTextColumn.HeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="2 4 2 2" Orientation="Horizontal">
+                                                <TextBlock Padding="0 0 5 5" Text="Ca làm việc" FontSize="25" ></TextBlock>
+                                                <fa:FontAwesome Margin="5 10 0 -2" Height="30" Foreground="#FF68EB48" Icon="ArrowDown" ></fa:FontAwesome>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTextColumn.HeaderTemplate>
+                                    <DataGridTextColumn.Foreground>
+                                        <SolidColorBrush Color="Black" />
+                                    </DataGridTextColumn.Foreground>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="HorizontalAlignment" Value="Center" />
+                                            <Setter Property="Background" Value="Transparent"></Setter>
+                                            <Setter Property="IsEnabled" Value="False"></Setter>
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Employee Name" Width="200" Binding="{Binding employeeName}">
+                                    <DataGridTextColumn.HeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="2 4 2 2" Orientation="Horizontal">
+                                                <TextBlock Padding="0 0 5 5" Text="Máy làm việc" FontSize="25" ></TextBlock>
+                                                <fa:FontAwesome Margin="5 10 0 -2" Height="30" Foreground="#FF68EB48" Icon="ArrowDown" ></fa:FontAwesome>
+
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTextColumn.HeaderTemplate>
+                                    <DataGridTextColumn.Foreground>
+                                        <SolidColorBrush Color="Black" />
+                                    </DataGridTextColumn.Foreground>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="HorizontalAlignment" Value="Center" />
+                                            <Setter Property="Background" Value="Transparent"></Setter>
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Employee Adress" Width="200" Binding="{Binding employeeAdress}">
+                                    <DataGridTextColumn.HeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="2 4 2 2" Orientation="Horizontal">
+                                                <TextBlock Padding="0 0 5 5" Text="Mã khuôn" FontSize="25" ></TextBlock>
+                                                <fa:FontAwesome Margin="5 10 0 -2" Height="30" Foreground="#FF68EB48" Icon="ArrowDown" ></fa:FontAwesome>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTextColumn.HeaderTemplate>
+                                    <DataGridTextColumn.Foreground>
+                                        <SolidColorBrush Color="Black" />
+                                    </DataGridTextColumn.Foreground>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="HorizontalAlignment" Value="Center" />
+                                            <Setter Property="Background" Value="Transparent"></Setter>
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Employee City" Width="200" Binding="{Binding employeeCity}">
+                                    <DataGridTextColumn.HeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="2 4 2 2" Orientation="Horizontal">
+                                                <TextBlock Padding="0 0 5 5" Text="Chu kì ép" FontSize="25" ></TextBlock>
+                                                <fa:FontAwesome Margin="5 10 0 -2" Height="30" Foreground="#FF68EB48" Icon="ArrowDown" ></fa:FontAwesome>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTextColumn.HeaderTemplate>
+                                    <DataGridTextColumn.Foreground>
+                                        <SolidColorBrush Color="Black" />
+                                    </DataGridTextColumn.Foreground>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="HorizontalAlignment" Value="Center" />
+                                            <Setter Property="Background" Value="Transparent"></Setter>
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Employee State" Width="200" Binding="{Binding employeeState}">
+                                    <DataGridTextColumn.HeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="2 4 2 2" Orientation="Horizontal">
+                                                <TextBlock Padding="0 0 5 5" Text="Mã sản phẩm" FontSize="25" ></TextBlock>
+                                                <fa:FontAwesome Margin="5 10 0 -2" Height="30" Foreground="#FF68EB48" Icon="ArrowDown" ></fa:FontAwesome>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTextColumn.HeaderTemplate>
+                                    <DataGridTextColumn.Foreground>
+                                        <SolidColorBrush Color="Black" />
+                                    </DataGridTextColumn.Foreground>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="HorizontalAlignment" Value="Center" />
+                                            <Setter Property="Background" Value="Transparent"></Setter>
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Employee State" Width="200" Binding="{Binding employeeState}">
+                                    <DataGridTextColumn.HeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="2 4 2 2" Orientation="Horizontal">
+                                                <TextBlock Padding="0 0 5 5" Text="Số lượng" FontSize="25" ></TextBlock>
+                                                <fa:FontAwesome Margin="5 10 0 -2" Height="30" Foreground="#FF68EB48" Icon="ArrowDown" ></fa:FontAwesome>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTextColumn.HeaderTemplate>
+                                    <DataGridTextColumn.Foreground>
+                                        <SolidColorBrush Color="Black" />
+                                    </DataGridTextColumn.Foreground>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="HorizontalAlignment" Value="Center" />
+                                            <Setter Property="Background" Value="Transparent"></Setter>
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </materialDesign:Card>
+                </Grid>-->
+                <Grid Visibility="Visible">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1.5*" />
+                        <RowDefinition Height="0.08*" />
+                        <RowDefinition Height="5*" />
+                        <RowDefinition Height="11*" />
+                    </Grid.RowDefinitions>
+                    <materialDesign:Card Grid.Row="0"
+                                         Margin="0 2 0 2">
+                        <Grid>
+                            <Label HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                                   Content="Cài Đặt Thông Tin Sản Xuất Ca 2"
+                                   FontSize="38"
+                                   FontWeight="SemiBold"
+                                   VerticalContentAlignment="Center" />
+                            <Rectangle Height="2"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Bottom"
+                                       Fill="#FF00294D"
+                                       Margin="0 0 0 7"
+                                       Width="{Binding ElementName=Setting, Path=ActualWidth, Converter={Converter:SizeConverter},ConverterParameter=0.9}"></Rectangle>
+                        </Grid>
+                    </materialDesign:Card>
+                    <Grid  Grid.Row="1"></Grid>
+                    <materialDesign:Card Margin="0 10"
+                                         Grid.Row="2">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="4*" />
+                                <ColumnDefinition Width="4*" />
+                                <ColumnDefinition Width="2*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1.*" />
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition Height="1*" />
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <Label Content="Ca làm việc:"
+                                           FontSize="25"
+                                           HorizontalContentAlignment="Left"
+                                           Width="250"
+                                           HorizontalAlignment="Left"
+                                           VerticalContentAlignment="Center"
+                                           Margin="20 0"></Label>
+                                    <ComboBox materialDesign:HintAssist.Hint="Ca 2"
+                                              FontSize="25"
+                                              Width="250"
+                                              Padding="20 4 5 6"
+                                              HorizontalAlignment="Right"
+                                              Height="{Binding ElementName=Gr1, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.65}"></ComboBox>
+                                </Grid>
+                                <Grid Grid.Row="1">
+                                    <Label Content="Máy làm việc:"
+                                           FontSize="25"
+                                           HorizontalContentAlignment="Left"
+                                           Width="250"
+                                           Margin="20 0"
+                                           HorizontalAlignment="Left"
+                                           VerticalContentAlignment="Center"></Label>
+                                    <ComboBox Padding="20 4 5 6"
+                                              Width="250"
+                                              materialDesign:HintAssist.Hint="Chọn máy"
+                                              FontSize="25"
+                                              IsEditable="True"
+                                              HorizontalAlignment="Right"
+                                              ItemsSource="{Binding ListMachine}"
+                                              DisplayMemberPath="Id"
+                                              SelectedItem="{Binding Machine}"
+                                              Height="{Binding ElementName=Gr2, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.65}"></ComboBox>
+                                </Grid>
+                                <Grid Grid.Row="2">
+                                    <Label Content="Mã sản phẩm:"
+                                           FontSize="25"
+                                           HorizontalContentAlignment="Left"
+                                           Width="250"
+                                           Margin="20 0 20 0"
+                                           HorizontalAlignment="Left"
+                                           VerticalContentAlignment="Center"></Label>
+                                    <ComboBox Padding="20 4 5 6"
+                                              Width="250"
+                                              IsEditable="True"
+                                              ItemsSource="{Binding ListProduct}"
+                                              SelectedItem="{Binding Product}"
+                                              DisplayMemberPath="ProductId"
+                                              materialDesign:HintAssist.Hint="Chọn mã"
+                                              FontSize="25"
+                                              HorizontalAlignment="Right"
+                                              Height="{Binding ElementName=Gr3, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.65}"></ComboBox>
+                                </Grid>
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1.*" />
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition Height="1*" />
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <Label Content="Mã khuôn"
+                                           FontSize="25"
+                                           HorizontalContentAlignment="Left"
+                                           Width="250"
+                                           HorizontalAlignment="Left"
+                                           VerticalContentAlignment="Center"
+                                           Margin="20 0"></Label>
+                                    <Label Padding="20 4 5 6"
+                                           Width="250"
+                                           materialDesign:HintAssist.Hint="Chọn mã"
+                                           FontSize="25"
+                                           Content="{Binding MoldId}"
+                                           HorizontalAlignment="Right"
+                                           Height="{Binding ElementName=Gr1, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.65}"></Label>
+                                </Grid>
+                                <Grid Grid.Row="1">
+                                    <Label Content="Chu kì ép:"
+                                           FontSize="25"
+                                           HorizontalContentAlignment="Left"
+                                           Width="250"
+                                           Margin="20 0"
+                                           HorizontalAlignment="Left"
+                                           VerticalContentAlignment="Center"></Label>
+                                    <TextBox Padding="20 4 5 6"
+                                             FontSize="25"
+                                             Width="250"
+                                             Text="{Binding CycleInjection, UpdateSourceTrigger=PropertyChanged}"
+                                             HorizontalAlignment="Right"
+                                             materialDesign:HintAssist.Hint="Chu kì ép"
+                                             Height="{Binding ElementName=Gr2, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.65}">
+                                        <i:Interaction.Triggers>
+                                            <i:EventTrigger EventName="TextChanged">
+                                                <prism:InvokeCommandAction Command="{Binding TextChangedCommand}" />
+                                            </i:EventTrigger>
+                                        </i:Interaction.Triggers>
+                                    </TextBox>
+                                </Grid>
+                                <Grid Grid.Row="2">
+                                    <Label Content="Số lượng:"
+                                           FontSize="25"
+                                           HorizontalContentAlignment="Left"
+                                           Width="250"
+                                           Margin="20 0"
+                                           HorizontalAlignment="Left"
+                                           VerticalContentAlignment="Center"></Label>
+                                    <TextBox Style="{x:Null}"
+                                             Text="{Binding Quantity, UpdateSourceTrigger=PropertyChanged}"
+                                             Padding="20 10 5 -5"
+                                             FontSize="25"
+                                             Width="250"
+                                             BorderThickness="1"
+                                             HorizontalAlignment="Right"
+                                             Height="{Binding ElementName=Gr3, Path=ActualHeight, Converter={Converter:SizeConverter}, ConverterParameter=0.55}"
+                                             Margin="0,0,0,10"></TextBox>
+                                </Grid>
+                            </Grid>
+                            <StackPanel  Grid.Column="2">
+                                <Button Style="{StaticResource RaiseButton}"
+                                        Margin="30 0 30 10"
+                                        Height="60"
+                                        Width="200"
+                                        Command="{Binding ClearCommandShift2}"
+                                        Background="#FF00294D"
+                                        FontSize="25">Load</Button>
+                                <Button Style="{StaticResource RaiseButton}"
+                                        Margin="30 0"
+                                        Height="60"
+                                        Command="{Binding DeleteCommandShift2}"
+                                        Width="200"
+                                        Background="#FF00294D"
+                                        FontSize="25">Xóa</Button>
+                                <Button Style="{StaticResource RaiseButton}"
+                                        Margin="30 10"
+                                        Height="60"
+                                        Command="{Binding AddCommandShift2}"
+                                        Width="200"
+                                        Background="#FF00294D"
+                                        FontSize="25">Xác nhận</Button>
+                            </StackPanel>
+                        </Grid>
+                    </materialDesign:Card>
+                    <materialDesign:Card Margin="0 0"
+                                         Grid.Row="3">
+                        <DataGrid Style="{StaticResource DataGrid}"
+                                  Width="{Binding ElementName =gr , Path=ActualWidth, Converter={Converter:SizeConverter}, ConverterParameter=0.99}"
+                                  HorizontalAlignment="Center"
+                                  RowBackground="#FFBAD3E0"
+                                  AlternatingRowBackground="#E4F0FF"
+                                  IsReadOnly="True"
+                                  SelectionMode="Single"
+                                  SelectedItem="{Binding ConfigurationSelect}"
+                                  ItemsSource="{Binding ListConfigurationShift2}"
+                                  Height="490"
+                                  VerticalAlignment="Top">
+                            <!-- Font Color/ Type of Column Headings -->
+                            <DataGrid.Resources>
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+                                    <Setter Property="Height"
+                                            Value="25"></Setter>
+                                    <Setter Property="Height"
+                                            Value="40"></Setter>
+                                    <Setter Property="HorizontalContentAlignment"
+                                            Value="Center"></Setter>
+                                    <Setter Property="Background"
+                                            Value="#FF00294D"></Setter>
+                                    <Setter Property="Foreground"
+                                            Value="White"></Setter>
+                                    <Setter Property="VerticalContentAlignment"
+                                            Value="Center"></Setter>
+                                </Style>
+                            </DataGrid.Resources>
+                            <DataGrid.CellStyle>
+                                <Style TargetType="DataGridCell">
+                                    <Style.Triggers>
+                                        <Trigger Property="IsSelected"
+                                                 Value="True">
+                                            <Setter Property="Background"
+                                                    Value="White" />
+                                            <Setter Property="BorderThickness"
+                                                    Value="0" />
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGrid.CellStyle>
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Employee Name"
+                                                    Width="240"
+                                                    Binding="{Binding DateTime}">
+                                    <DataGridTextColumn.HeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="2 4 2 2"
+                                                        Orientation="Horizontal">
+                                                <TextBlock Padding="0 0 5 5"
+                                                           Text="Máy làm việc"
+                                                           FontSize="25"></TextBlock>
+                                                <fa:FontAwesome Margin="5 10 0 -2"
+                                                                Height="30"
+                                                                Foreground="#FF68EB48"
+                                                                Icon="ArrowDown"></fa:FontAwesome>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTextColumn.HeaderTemplate>
+                                    <DataGridTextColumn.Foreground>
+                                        <SolidColorBrush Color="Black" />
+                                    </DataGridTextColumn.Foreground>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="FontSize"
+                                                    Value="22"></Setter>
+                                            <Setter Property="Height"
+                                                    Value="25" />
+                                            <Setter Property="HorizontalAlignment"
+                                                    Value="Center" />
+                                            <Setter Property="Background"
+                                                    Value="Transparent"></Setter>
+                                            <Setter Property="IsEnabled"
+                                                    Value="False"></Setter>
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Employee Name"
+                                                    Width="200"
+                                                    Binding="{Binding MachineId}">
+                                    <DataGridTextColumn.HeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="2 4 2 2"
+                                                        Orientation="Horizontal">
+                                                <TextBlock Padding="0 0 5 5"
+                                                           Text="Máy làm việc"
+                                                           FontSize="25"></TextBlock>
+                                                <fa:FontAwesome Margin="5 10 0 -2"
+                                                                Height="30"
+                                                                Foreground="#FF68EB48"
+                                                                Icon="ArrowDown"></fa:FontAwesome>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTextColumn.HeaderTemplate>
+                                    <DataGridTextColumn.Foreground>
+                                        <SolidColorBrush Color="Black" />
+                                    </DataGridTextColumn.Foreground>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="FontSize"
+                                                    Value="22"></Setter>
+                                            <Setter Property="Height"
+                                                    Value="25" />
+                                            <Setter Property="HorizontalAlignment"
+                                                    Value="Center" />
+                                            <Setter Property="Background"
+                                                    Value="Transparent"></Setter>
+                                            <Setter Property="IsEnabled"
+                                                    Value="False"></Setter>
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Employee Adress"
+                                                    Width="200"
+                                                    Binding="{Binding MoldId}">
+                                    <DataGridTextColumn.HeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="2 4 2 2"
+                                                        Orientation="Horizontal">
+                                                <TextBlock Padding="0 0 5 5"
+                                                           Text="Mã khuôn"
+                                                           FontSize="25"></TextBlock>
+                                                <fa:FontAwesome Margin="5 10 0 -2"
+                                                                Height="30"
+                                                                Foreground="#FF68EB48"
+                                                                Icon="ArrowDown"></fa:FontAwesome>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTextColumn.HeaderTemplate>
+                                    <DataGridTextColumn.Foreground>
+                                        <SolidColorBrush Color="Black" />
+                                    </DataGridTextColumn.Foreground>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="FontSize"
+                                                    Value="22"></Setter>
+                                            <Setter Property="Height"
+                                                    Value="25" />
+                                            <Setter Property="HorizontalAlignment"
+                                                    Value="Center" />
+                                            <Setter Property="Background"
+                                                    Value="Transparent"></Setter>
+                                            <Setter Property="IsEnabled"
+                                                    Value="False"></Setter>
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Employee City"
+                                                    Width="200"
+                                                    Binding="{Binding CycleInjection}">
+                                    <DataGridTextColumn.HeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="2 4 2 2"
+                                                        Orientation="Horizontal">
+                                                <TextBlock Padding="0 0 5 5"
+                                                           Text="Chu kì ép"
+                                                           FontSize="25"></TextBlock>
+                                                <fa:FontAwesome Margin="5 10 0 -2"
+                                                                Height="30"
+                                                                Foreground="#FF68EB48"
+                                                                Icon="ArrowDown"></fa:FontAwesome>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTextColumn.HeaderTemplate>
+                                    <DataGridTextColumn.Foreground>
+                                        <SolidColorBrush Color="Black" />
+                                    </DataGridTextColumn.Foreground>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="FontSize"
+                                                    Value="22"></Setter>
+                                            <Setter Property="Height"
+                                                    Value="25" />
+                                            <Setter Property="HorizontalAlignment"
+                                                    Value="Center" />
+                                            <Setter Property="Background"
+                                                    Value="Transparent"></Setter>
+                                            <Setter Property="IsEnabled"
+                                                    Value="False"></Setter>
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Employee State"
+                                                    Width="200"
+                                                    Binding="{Binding ProductId}">
+                                    <DataGridTextColumn.HeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="2 4 2 2"
+                                                        Orientation="Horizontal">
+                                                <TextBlock Padding="0 0 5 5"
+                                                           Text="Mã sản phẩm"
+                                                           FontSize="25"></TextBlock>
+                                                <fa:FontAwesome Margin="5 10 0 -2"
+                                                                Height="30"
+                                                                Foreground="#FF68EB48"
+                                                                Icon="ArrowDown"></fa:FontAwesome>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTextColumn.HeaderTemplate>
+                                    <DataGridTextColumn.Foreground>
+                                        <SolidColorBrush Color="Black" />
+                                    </DataGridTextColumn.Foreground>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="FontSize"
+                                                    Value="22"></Setter>
+                                            <Setter Property="Height"
+                                                    Value="25" />
+                                            <Setter Property="HorizontalAlignment"
+                                                    Value="Center" />
+                                            <Setter Property="Background"
+                                                    Value="Transparent"></Setter>
+                                            <Setter Property="IsEnabled"
+                                                    Value="False"></Setter>
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Employee State"
+                                                    Width="200"
+                                                    Binding="{Binding Quantity}">
+                                    <DataGridTextColumn.HeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Margin="2 4 2 2"
+                                                        Orientation="Horizontal">
+                                                <TextBlock Padding="0 0 5 5"
+                                                           Text="Số lượng"
+                                                           FontSize="25"></TextBlock>
+                                                <fa:FontAwesome Margin="5 10 0 -2"
+                                                                Height="30"
+                                                                Foreground="#FF68EB48"
+                                                                Icon="ArrowDown"></fa:FontAwesome>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTextColumn.HeaderTemplate>
+                                    <DataGridTextColumn.Foreground>
+                                        <SolidColorBrush Color="Black" />
+                                    </DataGridTextColumn.Foreground>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="FontSize"
+                                                    Value="22"></Setter>
+                                            <Setter Property="Height"
+                                                    Value="25" />
+                                            <Setter Property="HorizontalAlignment"
+                                                    Value="Center" />
+                                            <Setter Property="Background"
+                                                    Value="Transparent"></Setter>
+                                            <Setter Property="IsEnabled"
+                                                    Value="False"></Setter>
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </materialDesign:Card>
+                </Grid>
+            </Grid>
+        </materialDesign:Card>
+    </Grid>
+</UserControl>
+
