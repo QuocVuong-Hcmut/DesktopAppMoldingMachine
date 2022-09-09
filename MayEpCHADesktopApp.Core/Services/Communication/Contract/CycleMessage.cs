@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace InjectionMoldingMachineDataAcquisitionService.Communication.Consumers;
+namespace InjectionMoldingMachineDataAcquisitionService.Communication.Messages;
 
 public class CycleMessage
 {
@@ -13,6 +13,19 @@ public class CycleMessage
     public string MoldId { get; set; }
     public string ProductId { get; set; }
     public double SetCycle { get; set; }
+
+    public CycleMessage (string machineId,DateTime timestamp,double cycleTime,double openTime,int mode,int counterShot,string moldId,string productId,double setCycle)
+    {
+        MachineId=machineId;
+        Timestamp=timestamp;
+        CycleTime=cycleTime;
+        OpenTime=openTime;
+        Mode=mode;
+        CounterShot=counterShot;
+        MoldId=moldId;
+        ProductId=productId;
+        SetCycle=setCycle;
+    }
 }
 
 public class CycleMqttMessage

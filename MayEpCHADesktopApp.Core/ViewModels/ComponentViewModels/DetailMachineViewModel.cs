@@ -1,5 +1,5 @@
 ﻿using ImmServiceContainers;
-using InjectionMoldingMachineDataAcquisitionService.Communication.Consumers;
+using InjectionMoldingMachineDataAcquisitionService.Communication.Messages;
 using MassTransit;
 using MayEpCHADesktopApp.Core.Components;
 using MayEpCHADesktopApp.Core.Services.Communication.ModelMQTT;
@@ -32,6 +32,8 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
         #region var
         private string content { get; set; }
         public string Content { get => content; set { content=value; OnPropertyChanged( ); } }
+        private string contentBtBack { get; set; }
+        public string ContentBtBack { get => contentBtBack; set { contentBtBack=value; OnPropertyChanged( ); } }
 
 
         private bool animation1;
@@ -67,6 +69,8 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
         public bool A { get => a; set { a=value; OnPropertyChanged( ); } }
         private bool b;
         public bool B { get => b; set { b=value; OnPropertyChanged( ); } }
+        private bool isOpen;
+        public bool IsOpen { get => isOpen; set { isOpen=value; OnPropertyChanged( ); } }
         private string status;
         public string Status { get => status; set { status=value; OnPropertyChanged( ); } }
         #endregion var
@@ -134,7 +138,8 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
             _databaseServices=databaseServices;
             _apiServices=apiServices;
             Content="Tạm dừng";
-            Animation1=true;
+            ContentBtBack="Chi tiết";
+            Animation1 =true;
             Animation2=false;
             ListMold=new ( );
             ListMachine=new ( );
@@ -147,6 +152,8 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
             A=true;
             B=false;
             Content="Tạm dừng";
+            ContentBtBack="Chi tiết";
+            IsOpen=false;
 
             #endregion int
             ChangeMoldCommand=new RelayObjectCommand<object>((p) => { return true; },async (p) => Pause(p));
@@ -154,9 +161,22 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
         }
         private void Back ( )
         {
-            Content="Tạm dừng";
-            A=true;
-            B=false;
+            switch ( ContentBtBack )
+            {
+                case "Trở về":
+                    Content="Tạm dừng";
+                    ContentBtBack="Chi tiết";
+                    A=true;
+                    B=false;
+                    IsOpen=false;
+                    break;
+                case "Chi tiết":
+                    ContentBtBack="Trở về";
+                    IsOpen=true;
+                    break;
+
+            }
+
         }
         public async void Command (CommandMessage commandMessage)
         {
@@ -265,82 +285,7 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
             //   }
             TemptCycle=Convert.ToInt32(Cycle);
         }
-        public void ReiceverBoolUaAction (UaBooleanData message)
-        {
-            string[] Data = message.Name.Split('.');
-            switch ( Data[1] )
-            {
-                case "GreenAlarm":
-                    if ( message.Value )
-                    {
-                        Status="5";
-                    }
 
-                    break;
-                case "YellowAlarm":
-                    if ( message.Value )
-                    {
-                        Status="6";
-                    }
-                    break;
-                case "RedAlarm":
-                    if ( message.Value )
-                    {
-                        Status="3";
-                    }
-                    break;
-                case "SafetyDoor":
-
-                    Status="6";
-
-                    break;
-            }
-        }
-
-        public void ReiceverIntUaAction (UaIntegerData message)
-        {
-            string[] Data = message.Name.Split('.');
-            switch ( Data[1] )
-            {
-                case "LastCycle":
-                    Cycle=message.Value.ToString( );
-
-                    break;
-                case "CounterShot":
-                    Count=message.Value.ToString( );
-                    break;
-                case "CycleTime":
-                    Cycle=message.Value.ToString( );
-                    break;
-                    //case "bRedAlarm":
-
-                    // break;
-
-            }
-            //foreach (var item in _databaseServices.LoadConfiguration())
-            //{
-            //    if(Data[1] == item.MachineId)
-            //    {
-            //        MoldId = item.MoldId;
-            //        ProductId = item.ProductId;
-            //        foreach(var item2 in listMold)
-            //        {
-            //            CycleStandard = item.MoldId;
-            //        }
-            //    }
-            //}
-            Application.Current.Dispatcher.Invoke(new Action(( ) =>
-            {
-                EventMachine eventMachine = new EventMachine( );
-                eventMachine.NameEvent="Lỗi chu kì ép";
-                eventMachine.Status=0;
-                eventMachine.DateTime=DateTime.Now;
-                eventMachine.CycleTime=Cycle;
-                ListEvent.Add(eventMachine);
-                CollectionViewSource.GetDefaultView(ListEvent).Refresh( );
-                OnPropertyChanged("ListEvent");
-            }));
-        }
 
         private void Pause (object p)
         {
@@ -374,6 +319,7 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
                         A=false;
                         B=true;
                         Content="Tiếp tục";
+                        ContentBtBack="Trở về";
                     }
                 }
                 else if ( Content=="Tiếp tục" )
@@ -419,6 +365,7 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
 
 
                         Content="Tạm dừng";
+                        ContentBtBack="Chi tiết";
                         A=true;
                         B=false;
                     }

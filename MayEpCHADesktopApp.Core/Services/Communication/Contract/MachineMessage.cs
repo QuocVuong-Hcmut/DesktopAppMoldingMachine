@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ImmServiceContainers;
+namespace InjectionMoldingMachineDataAcquisitionService.Communication.Messages;
 
 public class MachineMessage
 {

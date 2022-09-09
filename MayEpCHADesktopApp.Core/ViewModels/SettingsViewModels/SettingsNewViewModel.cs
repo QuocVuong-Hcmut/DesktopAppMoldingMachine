@@ -115,6 +115,23 @@ namespace MayEpCHADesktopApp.Core.ViewModels.SettingsViewModels
             Send( );
             StartTimer( );
         }
+        private Task Add1 ( )
+        {
+            try
+            {
+                Configuration configuration = new Configuration( );
+                configuration.Quantity=Quantity;
+                configuration.Shift=1;
+                configuration.MoldId=Mold.Id;
+                configuration.MachineId=Machine.Id;
+                configuration.ProductId=Product.ProductId;
+                configuration.CycleInjection=CycleInjection;
+                configuration.DateTime=DateTime.Now;
+                PostConfig(configuration);
+            }
+            catch { }
+            return Task.CompletedTask;
+        }
         //chạy timer 
         public void StartTimer ( )
         {

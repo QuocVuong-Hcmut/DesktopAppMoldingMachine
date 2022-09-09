@@ -17,6 +17,5 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Quoc Vuong\.nuget\packages\microsoft.entityframeworkcore.tools\6.0.5</PkgMicrosoft_EntityFrameworkCore_Tools>
-    <PkgLiveCharts_Wpf Condition=" '$(PkgLiveCharts_Wpf)' == '' ">C:\Users\Quoc Vuong\.nuget\packages\livecharts.wpf\0.9.7</PkgLiveCharts_Wpf>
   </PropertyGroup>
 </Project>

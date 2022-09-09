@@ -177,21 +177,37 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ReportViewModels
             GetTotalMold( );
             GetTotalProduct( );
             GetTotalMachinne( );
-            GetTotalPreShiftReport( );
-            // SettingsNewViewModel.ActionChangeDatabase+=Load;
+            //  GetTotalPreShiftReport( );
+           // LoadDemo( );
             Date=DateTime.Now;
 
         }
-
+        public async void LoadDemo ( )
+        {
+            ListPreShiftReport=await _apiServices.GetPreShiftReportTotal("");
+            foreach ( var item in ListPreShiftReport )
+            {
+                if ( item.MachineId=="L8"&&item.Date.Day==25 )
+                {
+                    var ListCycle = await LoadCSVCycle(item.MachineId);
+                    item.TotalQuantity=ListCycle.Length-1;
+                    item.ShiftNumber=0;
+                    item.WorkTime=await LoadWorkTime("");
+                    item.PauseTime=12*60-item.WorkTime;
+                    item.Shots=GetListShot("");
+                    ListShiftReport.Add(item);
+                }
+            }
+        }
 
         private async void DeleteShiftReport ( )
         {
-            MessageBoxResult result = CustomMessageBox.Show("Chỉnh sửa thành công","Thông báo",System.Windows.MessageBoxButton.YesNo,System.Windows.MessageBoxImage.Asterisk);
-            if ( result==MessageBoxResult.OK )
-            {
-                ListShiftReport.Remove(SelectShiftReport);
-                OnPropertyChanged("ListShiftReport");
-            }
+         //   MessageBoxResult result = CustomMessageBox.Show("Chỉnh sửa thành công","Thông báo",System.Windows.MessageBoxButton.YesNo,System.Windows.MessageBoxImage.Asterisk);
+            //    if ( result==MessageBoxResult.OK )
+            //   {
+            ListShiftReport.Remove(SelectShiftReport);
+            OnPropertyChanged("ListShiftReport");
+            //}
         }
         private async Task<string[]> LoadCSVCycle (string machineId)
         {
@@ -202,8 +218,8 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ReportViewModels
                 string month = (DateTime.Now.Month>9&&DateTime.Now.Month<13) ? DateTime.Now.Month.ToString( ) : "0"+DateTime.Now.Month;
                 string year = (DateTime.Now.Year%2000).ToString( );
                 string day = (DateTime.Now.Day>9&&DateTime.Now.Month<40) ? DateTime.Now.Day.ToString( ) : "0"+DateTime.Now.Day;
-                dataCycle=File.ReadAllLines(@$"{Url}{machineId}\C{shift}{day+month+year}");
-
+                // dataCycle=File.ReadAllLines(@$"{Url}{machineId}\C{shift}{day+month+year}");
+                dataCycle=File.ReadAllLines(@$"E:\SISTRAIN\WPF\App SISTRAIN\Data Molding Machine\DataNew\C217082022.csv");
             }
             catch
             {
@@ -222,44 +238,45 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ReportViewModels
             double TimeTotal = 0;
             string[] ContentCurrent;
             string[] ContentFuture;
-            try
+            //    try
+            //  {
+            // var statusData = File.ReadAllLines(@$"{Url}{machineId}\C{shift}{day+month+year}");
+            var statusData = File.ReadAllLines(@$"E:\SISTRAIN\WPF\App SISTRAIN\Data Molding Machine\DataNew\S217082022.csv");
+            for ( int i = 0;i<statusData.Length-5;i++ )
             {
-                var statusData = File.ReadAllLines(@$"{Url}{machineId}\C{shift}{day+month+year}");
-                for ( int i = 0;i<statusData.Length-2;i++ )
+
+                ContentCurrent=statusData[i].Split(',');
+                ContentFuture=statusData[i+1].Split(',');
+                if ( ContentCurrent[1]==ContentFuture[1]&&ContentCurrent[1]=="4" )
                 {
-
-                    ContentCurrent=statusData[i].Split(',');
-                    ContentFuture=statusData[i+1].Split(',');
-                    if ( ContentCurrent[1]==ContentFuture[1]&&ContentCurrent[1]=="4" )
+                    while ( true )
                     {
-                        while ( true )
+                        ContentCurrent=statusData[i+count].Split(',');
+                        ContentFuture=statusData[i+1+count].Split(',');
+                        if ( ContentCurrent[1]==ContentFuture[1] )
                         {
-                            ContentCurrent=statusData[i+count].Split(',');
-                            ContentFuture=statusData[i+1+count].Split(',');
-                            if ( ContentCurrent[1]==ContentFuture[1] )
-                            {
-                                count++;
-
-                            }
-                            else
-                            {
-                                ContentCurrent=statusData[i].Split(',');
-                                ContentFuture=statusData[i+count].Split(',');
-                                TimeTotal+=(Convert.ToDateTime(ContentFuture[0])-Convert.ToDateTime(ContentCurrent[0])).TotalMinutes;
-                                break;
-                            }
+                            count++;
 
                         }
-                        i=i+count;
-                    }
-                    count=0;
-                }
+                        else
+                        {
+                            ContentCurrent=statusData[i].Split(',');
+                            ContentFuture=statusData[i+count].Split(',');
+                            TimeTotal+=(Convert.ToDateTime(ContentFuture[0])-Convert.ToDateTime(ContentCurrent[0])).TotalMinutes;
+                            break;
+                        }
 
+                    }
+                    i=i+count;
+                }
+                count=0;
             }
-            catch
-            {
-                TimeTotal=0;
-            }
+
+            //    }
+            //catch
+            //{
+            //    TimeTotal=0;
+            //}
             return TimeTotal;
 
         }
@@ -285,11 +302,11 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ReportViewModels
                             var ListCycle = await LoadCSVCycle(item.MachineId);
                             item.TotalQuantity=ListCycle.Length-1;
                             item.ShiftNumber=(DateTime.Now.Hour>7&&DateTime.Now.Hour<11) ? EShift.Day : EShift.Night;
-                           // item.StopTime=Convert.ToDateTime(ListCycle[ListCycle.Length-1].Split(',')[0]); ;
+                            // item.StopTime=Convert.ToDateTime(ListCycle[ListCycle.Length-1].Split(',')[0]); ;
                             item.WorkTime=await LoadWorkTime(item.MachineId);
                             item.PauseTime=720-item.WorkTime;
                             item.Shots=GetListShot(item.MachineId);
-                            
+
                             try
                             {
                                 ListShiftReport.Add(item);
@@ -334,7 +351,7 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ReportViewModels
                             var ListCycle = await LoadCSVCycle(item.MachineId);
                             item.TotalQuantity=ListCycle.Length-1;
                             item.ShiftNumber=(DateTime.Now.Hour>7&&DateTime.Now.Hour<11) ? EShift.Day : EShift.Night;
-                         //   item.StopTime=Convert.ToDateTime(ListCycle[ListCycle.Length-1].Split(',')[0]); ;
+                            //   item.StopTime=Convert.ToDateTime(ListCycle[ListCycle.Length-1].Split(',')[0]); ;
                             item.WorkTime=await LoadWorkTime(item.MachineId);
                             item.PauseTime=720-item.WorkTime;
                             item.Shots=GetListShot(item.MachineId);
@@ -410,6 +427,11 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ReportViewModels
         private async void SaveExcel ( )
         {
 
+
+
+
+
+
             ExcelPackage.LicenseContext=OfficeOpenXml.LicenseContext.NonCommercial;
             string filePath = "";
             // tạo SaveFileDialog để lưu file excel
@@ -464,6 +486,7 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ReportViewModels
                         ws.Cells["Q"+rowIndex.ToString( )].Value=item.Cavity;
                         ws.Cells["AB"+rowIndex.ToString( )].Value=item.Note;
                         ws.Cells["AA"+rowIndex.ToString( )].Value=item.PauseTime.ToString( );
+                        ws.Cells["Z"+rowIndex.ToString( )].Value=item.WorkTime.ToString( );
                         rowIndex++;
                         _apiServices.PutShiftReport("",item);
                         StoreEvent("Xuất báo cáo từng máy",item.MachineId);
@@ -542,11 +565,21 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ReportViewModels
             ListShot=new List<Shot>( );
             try
             {
-                var shift = (DateTime.Now.Hour>4&&DateTime.Now.Hour<9) ? 1 : 2;
-                string month = (DateTime.Now.Month>9&&DateTime.Now.Month<13) ? DateTime.Now.Month.ToString( ) : "0"+DateTime.Now.Month;
-                string year = (DateTime.Now.Year%2000).ToString( );
-                string day = (DateTime.Now.Day>9&&DateTime.Now.Month<40) ? DateTime.Now.Day.ToString( ) : "0"+DateTime.Now.Day;
-                var dataCycle = File.ReadAllLines(@$"{Url}{machineId}\C{shift}{day+month+year}");
+                //var shift = (DateTime.Now.Hour>4&&DateTime.Now.Hour<9) ? 1 : 2;
+                //string month = (DateTime.Now.Month>9&&DateTime.Now.Month<13) ? DateTime.Now.Month.ToString( ) : "0"+DateTime.Now.Month;
+                //string year = (DateTime.Now.Year%2000).ToString( );
+                //string day = (DateTime.Now.Day>9&&DateTime.Now.Month<40) ? DateTime.Now.Day.ToString( ) : "0"+DateTime.Now.Day;
+                //var dataCycle = File.ReadAllLines(@$"{Url}{machineId}\C{shift}{day+month+year}");
+                //for ( int i = 1;i<dataCycle.Length-1;i++ )
+                //{
+                //    string[] Content = dataCycle[i].Split(',');
+                //    if ( Convert.ToDouble(Content[1])>10 )
+                //    {
+                //        Shot shot = new Shot(Convert.ToDateTime(Convert.ToDateTime(Content[0])),Convert.ToDouble(Content[1]),Convert.ToDouble(Content[2]));
+                //        ListShot.Add(shot);
+                //    }
+                //}
+                var dataCycle = File.ReadAllLines(@$"E:\SISTRAIN\WPF\App SISTRAIN\Data Molding Machine\DataNew\C217082022.csv");
                 for ( int i = 1;i<dataCycle.Length-1;i++ )
                 {
                     string[] Content = dataCycle[i].Split(',');
@@ -556,6 +589,7 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ReportViewModels
                         ListShot.Add(shot);
                     }
                 }
+
             }
             catch
             {

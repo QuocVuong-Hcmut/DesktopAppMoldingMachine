@@ -28,12 +28,13 @@ namespace MayEpCHADesktopApp.HostBuilder
 
             {
                 services.AddSingleton<ObservationMachinePage1ViewModel>((IServiceProvider serviceProvider) => { return 
-                new ObservationMachinePage1ViewModel(serviceProvider.GetRequiredService<DetailMachineViewModel>(),
-                                                    serviceProvider.GetRequiredService<DetailMachineViewModel>(),
+                new ObservationMachinePage1ViewModel(serviceProvider.GetRequiredService<DetailMachineOpcViewModel>(),
+                                                    serviceProvider.GetRequiredService<DetailMachineOpcViewModel>(),
                                                     serviceProvider.GetRequiredService<DetailMachineViewModel>(),
                                                     serviceProvider.GetRequiredService<DetailMachineViewModel>(),
                                                     serviceProvider.GetRequiredService<DetailMachineViewModel>(),
                                                     serviceProvider.GetRequiredService<DetailMachineViewModel>()
+                                                    
                                                     
                 ); });
                 services.AddSingleton<ObservationMachinePage2ViewModel>((IServiceProvider serviceProvider) => {
@@ -71,8 +72,8 @@ namespace MayEpCHADesktopApp.HostBuilder
                 });
                 services.AddSingleton<ObservationMachinePage5ViewModel>((IServiceProvider serviceProvider) => {
                     return
-                    new ObservationMachinePage5ViewModel(serviceProvider.GetRequiredService<DetailMachineViewModel>(),
-                                                    serviceProvider.GetRequiredService<DetailMachineViewModel>(),
+                    new ObservationMachinePage5ViewModel(serviceProvider.GetRequiredService<DetailMachineOpcViewModel>(),
+                                                    serviceProvider.GetRequiredService<DetailMachineOpcViewModel>(),
                                                     serviceProvider.GetRequiredService<DetailMachineViewModel>(),
                                                     serviceProvider.GetRequiredService<DetailMachineViewModel>(),
                                                     serviceProvider.GetRequiredService<DetailMachineViewModel>(),
@@ -85,17 +86,17 @@ namespace MayEpCHADesktopApp.HostBuilder
                     new ObservationMachinePage6ViewModel(serviceProvider.GetRequiredService<DetailMachineViewModel>(),
                                                     serviceProvider.GetRequiredService<DetailMachineViewModel>(),
                                                     serviceProvider.GetRequiredService<DetailMachineViewModel>(),
-                                                    serviceProvider.GetRequiredService<DetailMachineViewModel>(),
-                                                    serviceProvider.GetRequiredService<DetailMachineViewModel>(),
-                                                    serviceProvider.GetRequiredService<DetailMachineViewModel>()
+                                                    serviceProvider.GetRequiredService<DetailMachineOpcViewModel>(),
+                                                    serviceProvider.GetRequiredService<DetailMachineOpcViewModel>(),
+                                                    serviceProvider.GetRequiredService<DetailMachineOpcViewModel>()
 
 );
                 });
                 services.AddSingleton<ObservationMachinePage7ViewModel>((IServiceProvider serviceProvider) => {
                     return
-                    new ObservationMachinePage7ViewModel(serviceProvider.GetRequiredService<DetailMachineViewModel>(),
-                                                    serviceProvider.GetRequiredService<DetailMachineViewModel>(),
-                                                    serviceProvider.GetRequiredService<DetailMachineViewModel>(),
+                    new ObservationMachinePage7ViewModel(serviceProvider.GetRequiredService<DetailMachineOpcViewModel>(),
+                                                    serviceProvider.GetRequiredService<DetailMachineOpcViewModel>(),
+                                                    serviceProvider.GetRequiredService<DetailMachineOpcViewModel>(),
                                                     serviceProvider.GetRequiredService<DetailMachineViewModel>()
                                                  
 

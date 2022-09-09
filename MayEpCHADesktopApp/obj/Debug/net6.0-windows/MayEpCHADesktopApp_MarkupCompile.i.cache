@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\obj\Debug\net6.0-windows\
+E:\SISTRAIN\WPF\App SISTRAIN\desktop_cha_injection-molding-machine_phase2\MayEpCHADesktopApp\obj\Debug\net6.0-windows\
 MayEpCHADesktopApp
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-E:\SISTRAIN\WPF\App SISTRAIN\MAYEP_LVTN\injection-molding-machine\desktop_cha_injection-molding-machine_lvtn\MayEpCHADesktopApp\App.xaml
+E:\SISTRAIN\WPF\App SISTRAIN\desktop_cha_injection-molding-machine_phase2\MayEpCHADesktopApp\App.xaml
 37-1462051024
 2844983438
 46-227457168
-260389025108
+260-1347009694
 MainWindow.xaml;Resources\Components\ButtonMenu.xaml;Resources\Components\ChartObservate.xaml;Resources\Components\MachineInformationDetail.xaml;Resources\Components\MayNho.xaml;Resources\ResourceDictionary\ResourceViewModel.xaml;Resources\Styles\ButtonMenu.xaml;Resources\Styles\ColorTemplate.xaml;Resources\Styles\DataGrid.xaml;Resources\Styles\DropShadow.xaml;Resources\Styles\ScrollBar.xaml;Views\AlertView\AlertView.xaml;Views\HelpView\HelpView.xaml;Views\HistoryView\HistoryView.xaml;Views\LoginView.xaml;Views\ManageView\EmployeeView.xaml;Views\ManageView\ManageView.xaml;Views\ManageView\MoldView.xaml;Views\ManageView\ProductView.xaml;Views\ObservationView\ObservateView.xaml;Views\ObservationView\ObservationDetailMachinePage1.xaml;Views\ObservationView\ObservationDetailMachinePage2.xaml;Views\ObservationView\ObservationDetailMachinePage3.xaml;Views\ObservationView\ObservationDetailMachinePage4.xaml;Views\ObservationView\ObservationDetailMachinePage5.xaml;Views\ObservationView\ObservationDetailMachinePage6.xaml;Views\ObservationView\ObservationDetailMachinePage7.xaml;Views\ObservationView\ObservationDetailMachineView.xaml;Views\ObservationView\ObservationMachineView.xaml;Views\ReportView\BillExportWareHouseView.xaml;Views\ReportView\ExportExcelView.xaml;Views\ReportView\ReportObversationEmployee.xaml;Views\ReportView\ReportShiftView.xaml;Views\ReportView\ReportView.xaml;Views\SettingView\SettingsNewView.xaml;Views\SettingView\SettingsPreviousView.xaml;Views\SettingView\SettingsView.xaml;
 
-False
+True
 

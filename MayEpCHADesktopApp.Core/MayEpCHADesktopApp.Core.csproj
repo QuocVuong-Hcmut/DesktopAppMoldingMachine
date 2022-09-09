@@ -8,18 +8,14 @@
 
   <ItemGroup>
     <Compile Remove="Domain\**" />
-    <Compile Remove="MQTT\CommandMessage\**" />
     <EmbeddedResource Remove="Domain\**" />
-    <EmbeddedResource Remove="MQTT\CommandMessage\**" />
     <None Remove="Domain\**" />
-    <None Remove="MQTT\CommandMessage\**" />
     <Page Remove="Domain\**" />
-    <Page Remove="MQTT\CommandMessage\**" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="EPPlus" Version="6.0.3" />
-    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.Wpf.Core" Version="0.9.8" />
     <PackageReference Include="MassTransit.Grpc" Version="8.0.1" />
     <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="6.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />

@@ -32,6 +32,7 @@ namespace MayEpCHADesktopApp.HostBuilder
                 services.AddSingleton<HistoryViewModel>( );
                 services.AddSingleton<HelpViewModel>( );
                 services.AddTransient<DetailMachineViewModel>( );
+                services.AddTransient<DetailMachineOpcViewModel>( );
                 services.AddSingleton<CommanDesktop>( );
 
                 services.AddSingleton<MainViewModel>((IServiceProvider serviceprovider) =>

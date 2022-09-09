@@ -105,8 +105,8 @@ namespace MayEpCHADesktopApp.Core.Services
         public void Sound()
         {
         
-            mediaPlayer.Open(new Uri(@"D:\SISTRAIN\WPF\App SISTRAIN\Offical\MayEpCHADesktopApp\Resources\Sound\ClickMouse.mp3"));
-            mediaPlayer.Play();
+           // mediaPlayer.Open(new Uri(@".\ClickMouse.mp3"));
+            //mediaPlayer.Play();
         }
     }
 }

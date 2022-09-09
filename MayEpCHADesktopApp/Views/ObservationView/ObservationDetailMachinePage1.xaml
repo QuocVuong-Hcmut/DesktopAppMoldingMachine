@@ -19,233 +19,238 @@
              Height="700"
              Width="1267.2">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-        </Grid.ColumnDefinitions>
-        <Grid Grid.Column="0">
-            <Grid.RowDefinitions>
-                <RowDefinition />
-                <RowDefinition />
-            </Grid.RowDefinitions>
-            <Grid Grid.Row="0">
-                <materialDesign:Card Margin="10 10 10 5"
-                                     materialDesign:ShadowAssist.ShadowDepth="Depth3">
-                    <components:MachineInformationDetail MachineName="M28"
-                                                         x:Name="M28"
-                                                         CycleStandard="{Binding CycleStandard}"
-                                                         RealCycle="{Binding Cycle}"
-                                                         ProductCode="{Binding ProductId}"
-                                                         MoldCode="{Binding MoldId}"
-                                                         CountProduct="{Binding Count}"
-                                                         Animation1="{Binding A}"
-                                                         Animation2="{Binding B}"
-                                                         SetMold="{Binding SetMold}"
-                                                         SetCycle="{Binding SetCycle}"
-                                                         ContentBt="{Binding Content}"
-                                                         ListEvent="{Binding ListEvent}"
-                                                         ListProduct="{Binding ListProduct}"
-                                                         Product="{Binding Product}"
-                                                         Mode="{Binding Mode}"
-                                                         StatusBackground="{Binding Status,Converter={Converter:IntToColorConverter}}"
-                                                         Status="{Binding Status,Converter={Converter:StringtoStringStatusMachine}}"
-                                                         DataContext="{Binding DetailMachineViewModel28}">
-                        <i:Interaction.Triggers>
-                            <i:EventTrigger EventName="ClickChangeMold">
-                                <prism:InvokeCommandAction Command="{Binding  ChangeMoldCommand}"
-                                                           CommandParameter="{Binding ElementName=M28}" />
-                            </i:EventTrigger>
-                            <i:EventTrigger EventName="ClickBack">
-                                <prism:InvokeCommandAction Command="{Binding  BackCommand}" />
-                            </i:EventTrigger>
-                        </i:Interaction.Triggers>
-                    </components:MachineInformationDetail>
-                </materialDesign:Card>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <materialDesign:Card Margin="10 10 10 5"
+                                         materialDesign:ShadowAssist.ShadowDepth="Depth3">
+                        <components:MachineInformationDetail MachineName="M28"
+                                                             x:Name="M28"
+                                                             CycleStandard="{Binding CycleStandard}"
+                                                             RealCycle="{Binding Cycle}"
+                                                             ProductCode="{Binding ProductId}"
+                                                             MoldCode="{Binding MoldId}"
+                                                             CountProduct="{Binding Count}"
+                                                             Animation1="{Binding A}"
+                                                             Animation2="{Binding B}"
+                                                             SetMold="{Binding SetMold}"
+                                                             SetCycle="{Binding SetCycle}"
+                                                             ContentBt="{Binding Content}"
+                                                             ListEvent="{Binding ListEvent}"
+                                                             ListProduct="{Binding ListProduct}"
+                                                             Product="{Binding Product}"
+                                                             Mode="{Binding Mode}"
+                                                             StatusBackground="{Binding Status,Converter={Converter:IntToColorConverter}}"
+                                                             Status="{Binding Status,Converter={Converter:StringtoStringStatusMachine}}"
+                                                             DataContext="{Binding DetailMachineViewModel28}">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="ClickChangeMold">
+                                    <prism:InvokeCommandAction Command="{Binding  ChangeMoldCommand}"
+                                                               CommandParameter="{Binding ElementName=M28}" />
+                                </i:EventTrigger>
+                                <i:EventTrigger EventName="ClickBack">
+                                    <prism:InvokeCommandAction Command="{Binding  BackCommand}" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </components:MachineInformationDetail>
+                    </materialDesign:Card>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <materialDesign:Card Margin="10 7.5 10 7.5"
+                                         materialDesign:ShadowAssist.ShadowDepth="Depth3">
+                        <components:MachineInformationDetail MachineName="M27"
+                                                             x:Name="M27"
+                                                             CycleStandard="{Binding CycleStandard}"
+                                                             RealCycle="{Binding Cycle}"
+                                                             ProductCode="{Binding ProductId}"
+                                                             MoldCode="{Binding MoldId}"
+                                                             CountProduct="{Binding Count}"
+                                                             Animation1="{Binding A}"
+                                                             Animation2="{Binding B}"
+                                                             SetMold="{Binding SetMold}"
+                                                             SetCycle="{Binding SetCycle}"
+                                                             ContentBt="{Binding Content}"
+                                                             ListEvent="{Binding ListEvent}"
+                                                             ListProduct="{Binding ListProduct}"
+                                                             Product="{Binding Product}"
+                                                             Mode="{Binding Mode}"
+                                                             StatusBackground="{Binding Status,Converter={Converter:IntToColorConverter}}"
+                                                             Status="{Binding Status,Converter={Converter:StringtoStringStatusMachine}}"
+                                                             DataContext="{Binding DetailMachineViewModel27}">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="ClickChangeMold">
+                                    <prism:InvokeCommandAction Command="{Binding  ChangeMoldCommand}"
+                                                               CommandParameter="{Binding ElementName=M27}" />
+                                </i:EventTrigger>
+                                <i:EventTrigger EventName="ClickBack">
+                                    <prism:InvokeCommandAction Command="{Binding  BackCommand}" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </components:MachineInformationDetail>
+                    </materialDesign:Card>
+                </Grid>
             </Grid>
-            <Grid Grid.Row="1">
-                <materialDesign:Card Margin="10 7.5 10 7.5"
-                                     materialDesign:ShadowAssist.ShadowDepth="Depth3">
-                    <components:MachineInformationDetail MachineName="M27"
-                                                         x:Name="M27"
-                                                         CycleStandard="{Binding CycleStandard}"
-                                                         RealCycle="{Binding Cycle}"
-                                                         ProductCode="{Binding ProductId}"
-                                                         MoldCode="{Binding MoldId}"
-                                                         CountProduct="{Binding Count}"
-                                                         Animation1="{Binding A}"
-                                                         Animation2="{Binding B}"
-                                                         SetMold="{Binding SetMold}"
-                                                         SetCycle="{Binding SetCycle}"
-                                                         ContentBt="{Binding Content}"
-                                                         ListEvent="{Binding ListEvent}"
-                                                         ListProduct="{Binding ListProduct}"
-                                                         Product="{Binding Product}"
-                                                         Mode="{Binding Mode}"
-                                                         StatusBackground="{Binding Status,Converter={Converter:IntToColorConverter}}"
-                                                         Status="{Binding Status,Converter={Converter:StringtoStringStatusMachine}}"
-                                                         DataContext="{Binding DetailMachineViewModel27}">
-                        <i:Interaction.Triggers>
-                            <i:EventTrigger EventName="ClickChangeMold">
-                                <prism:InvokeCommandAction Command="{Binding  ChangeMoldCommand}"
-                                                           CommandParameter="{Binding ElementName=M27}" />
-                            </i:EventTrigger>
-                            <i:EventTrigger EventName="ClickBack">
-                                <prism:InvokeCommandAction Command="{Binding  BackCommand}" />
-                            </i:EventTrigger>
-                        </i:Interaction.Triggers>
-                    </components:MachineInformationDetail>
-                </materialDesign:Card>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <materialDesign:Card Margin="10 10 10 5"
+                                         materialDesign:ShadowAssist.ShadowDepth="Depth3">
+                        <components:MachineInformationDetail MachineName="M26"
+                                                             x:Name="M26"
+                                                             CycleStandard="{Binding CycleStandard}"
+                                                             RealCycle="{Binding Cycle}"
+                                                             ProductCode="{Binding ProductId}"
+                                                             MoldCode="{Binding MoldId}"
+                                                             CountProduct="{Binding Count}"
+                                                             Animation1="{Binding A}"
+                                                             Animation2="{Binding B}"
+                                                             SetMold="{Binding SetMold}"
+                                                             SetCycle="{Binding SetCycle}"
+                                                             ContentBt="{Binding Content}"
+                                                             ListEvent="{Binding ListEvent}"
+                                                             ListProduct="{Binding ListProduct}"
+                                                             Product="{Binding Product}"
+                                                             Mode="{Binding Mode}"
+                                                             StatusBackground="{Binding Status,Converter={Converter:IntToColorConverter}}"
+                                                             Status="{Binding Status,Converter={Converter:StringtoStringStatusMachine}}"
+                                                             DataContext="{Binding DetailMachineViewModel26}">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="ClickChangeMold">
+                                    <prism:InvokeCommandAction Command="{Binding  ChangeMoldCommand}"
+                                                               CommandParameter="{Binding ElementName=M26}" />
+                                </i:EventTrigger>
+                                <i:EventTrigger EventName="ClickBack">
+                                    <prism:InvokeCommandAction Command="{Binding  BackCommand}" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </components:MachineInformationDetail>
+                    </materialDesign:Card>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <materialDesign:Card Margin="10 7.5 10 7.5"
+                                         materialDesign:ShadowAssist.ShadowDepth="Depth3">
+                        <components:MachineInformationDetail MachineName="M25"
+                                                             x:Name="M25"
+                                                             CycleStandard="{Binding CycleStandard}"
+                                                             RealCycle="{Binding Cycle}"
+                                                             ProductCode="{Binding ProductId}"
+                                                             MoldCode="{Binding MoldId}"
+                                                             CountProduct="{Binding Count}"
+                                                             Animation1="{Binding A}"
+                                                             Animation2="{Binding B}"
+                                                             SetMold="{Binding SetMold}"
+                                                             SetCycle="{Binding SetCycle}"
+                                                             ContentBt="{Binding Content}"
+                                                             ListEvent="{Binding ListEvent}"
+                                                             ListProduct="{Binding ListProduct}"
+                                                             Product="{Binding Product}"
+                                                             Mode="{Binding Mode}"
+                                                             StatusBackground="{Binding Status,Converter={Converter:IntToColorConverter}}"
+                                                             Status="{Binding Status,Converter={Converter:StringtoStringStatusMachine}}"
+                                                             DataContext="{Binding DetailMachineViewModel25}">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="ClickChangeMold">
+                                    <prism:InvokeCommandAction Command="{Binding  ChangeMoldCommand}"
+                                                               CommandParameter="{Binding ElementName=M25}" />
+                                </i:EventTrigger>
+                                <i:EventTrigger EventName="ClickBack">
+                                    <prism:InvokeCommandAction Command="{Binding  BackCommand}" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </components:MachineInformationDetail>
+                    </materialDesign:Card>
+                </Grid>
             </Grid>
-        </Grid>
-        <Grid Grid.Column="1">
-            <Grid.RowDefinitions>
-                <RowDefinition />
-                <RowDefinition />
-            </Grid.RowDefinitions>
-            <Grid Grid.Row="0">
-                <materialDesign:Card Margin="10 10 10 5"
-                                     materialDesign:ShadowAssist.ShadowDepth="Depth3">
-                    <components:MachineInformationDetail MachineName="M26"
-                                                         x:Name="M26"
-                                                         CycleStandard="{Binding CycleStandard}"
-                                                         RealCycle="{Binding Cycle}"
-                                                         ProductCode="{Binding ProductId}"
-                                                         MoldCode="{Binding MoldId}"
-                                                         CountProduct="{Binding Count}"
-                                                         Animation1="{Binding A}"
-                                                         Animation2="{Binding B}"
-                                                         SetMold="{Binding SetMold}"
-                                                         SetCycle="{Binding SetCycle}"
-                                                         ContentBt="{Binding Content}"
-                                                         ListEvent="{Binding ListEvent}"
-                                                         ListProduct="{Binding ListProduct}"
-                                                         Product="{Binding Product}"
-                                                         Mode="{Binding Mode}"
-                                                         StatusBackground="{Binding Status,Converter={Converter:IntToColorConverter}}"
-                                                         Status="{Binding Status,Converter={Converter:StringtoStringStatusMachine}}"
-                                                         DataContext="{Binding DetailMachineViewModel26}">
-                        <i:Interaction.Triggers>
-                            <i:EventTrigger EventName="ClickChangeMold">
-                                <prism:InvokeCommandAction Command="{Binding  ChangeMoldCommand}"
-                                                           CommandParameter="{Binding ElementName=M26}" />
-                            </i:EventTrigger>
-                            <i:EventTrigger EventName="ClickBack">
-                                <prism:InvokeCommandAction Command="{Binding  BackCommand}" />
-                            </i:EventTrigger>
-                        </i:Interaction.Triggers>
-                    </components:MachineInformationDetail>
-                </materialDesign:Card>
-            </Grid>
-            <Grid Grid.Row="1">
-                <materialDesign:Card Margin="10 7.5 10 7.5"
-                                     materialDesign:ShadowAssist.ShadowDepth="Depth3">
-                    <components:MachineInformationDetail MachineName="M25"
-                                                         x:Name="M25"
-                                                         CycleStandard="{Binding CycleStandard}"
-                                                         RealCycle="{Binding Cycle}"
-                                                         ProductCode="{Binding ProductId}"
-                                                         MoldCode="{Binding MoldId}"
-                                                         CountProduct="{Binding Count}"
-                                                         Animation1="{Binding A}"
-                                                         Animation2="{Binding B}"
-                                                         SetMold="{Binding SetMold}"
-                                                         SetCycle="{Binding SetCycle}"
-                                                         ContentBt="{Binding Content}"
-                                                         ListEvent="{Binding ListEvent}"
-                                                         ListProduct="{Binding ListProduct}"
-                                                         Product="{Binding Product}"
-                                                         Mode="{Binding Mode}"
-                                                         StatusBackground="{Binding Status,Converter={Converter:IntToColorConverter}}"
-                                                         Status="{Binding Status,Converter={Converter:StringtoStringStatusMachine}}"
-                                                         DataContext="{Binding DetailMachineViewModel25}">
-                        <i:Interaction.Triggers>
-                            <i:EventTrigger EventName="ClickChangeMold">
-                                <prism:InvokeCommandAction Command="{Binding  ChangeMoldCommand}"
-                                                           CommandParameter="{Binding ElementName=M25}" />
-                            </i:EventTrigger>
-                            <i:EventTrigger EventName="ClickBack">
-                                <prism:InvokeCommandAction Command="{Binding  BackCommand}" />
-                            </i:EventTrigger>
-                        </i:Interaction.Triggers>
-                    </components:MachineInformationDetail>
-                </materialDesign:Card>
-            </Grid>
-        </Grid>
-        <Grid Grid.Column="2">
-            <Grid.RowDefinitions>
-                <RowDefinition />
-                <RowDefinition />
-            </Grid.RowDefinitions>
-            <Grid Grid.Row="0">
-                <materialDesign:Card Margin="10 10 10 5"
-                                     materialDesign:ShadowAssist.ShadowDepth="Depth3">
-                    <components:MachineInformationDetail MachineName="M24"
-                                                         x:Name="M24"
-                                                         CycleStandard="{Binding CycleStandard}"
-                                                         RealCycle="{Binding Cycle}"
-                                                         ProductCode="{Binding ProductId}"
-                                                         MoldCode="{Binding MoldId}"
-                                                         CountProduct="{Binding Count}"
-                                                         Animation1="{Binding A}"
-                                                         Animation2="{Binding B}"
-                                                         SetMold="{Binding SetMold}"
-                                                         SetCycle="{Binding SetCycle}"
-                                                         ContentBt="{Binding Content}"
-                                                         ListEvent="{Binding ListEvent}"
-                                                         ListProduct="{Binding ListProduct}"
-                                                         Product="{Binding Product}"
-                                                         Mode="{Binding Mode}"
-                                                         StatusBackground="{Binding Status,Converter={Converter:IntToColorConverter}}"
-                                                         Status="{Binding Status,Converter={Converter:StringtoStringStatusMachine}}"
-                                                         DataContext="{Binding DetailMachineViewModel24}">
-                        <i:Interaction.Triggers>
-                            <i:EventTrigger EventName="ClickChangeMold">
-                                <prism:InvokeCommandAction Command="{Binding  ChangeMoldCommand}"
-                                                           CommandParameter="{Binding ElementName=M24}" />
-                            </i:EventTrigger>
-                            <i:EventTrigger EventName="ClickBack">
-                                <prism:InvokeCommandAction Command="{Binding  BackCommand}" />
-                            </i:EventTrigger>
-                        </i:Interaction.Triggers>
-                    </components:MachineInformationDetail>
-                </materialDesign:Card>
-            </Grid>
-            <Grid Grid.Row="1">
-                <materialDesign:Card Margin="10 7.5 10 7.5"
-                                     materialDesign:ShadowAssist.ShadowDepth="Depth3">
-                    <components:MachineInformationDetail MachineName="M23"
-                                                         x:Name="M23"
-                                                         CycleStandard="{Binding CycleStandard}"
-                                                         RealCycle="{Binding Cycle}"
-                                                         ProductCode="{Binding ProductId}"
-                                                         MoldCode="{Binding MoldId}"
-                                                         CountProduct="{Binding Count}"
-                                                         Animation1="{Binding A}"
-                                                         Animation2="{Binding B}"
-                                                         SetMold="{Binding SetMold}"
-                                                         SetCycle="{Binding SetCycle}"
-                                                         ContentBt="{Binding Content}"
-                                                         ListEvent="{Binding ListEvent}"
-                                                         ListProduct="{Binding ListProduct}"
-                                                         Product="{Binding Product}"
-                                                         Mode="{Binding Mode}"
-                                                         StatusBackground="{Binding Status,Converter={Converter:IntToColorConverter}}"
-                                                         Status="{Binding Status,Converter={Converter:StringtoStringStatusMachine}}"
-                                                         DataContext="{Binding DetailMachineViewModel23}">
-                        <i:Interaction.Triggers>
-                            <i:EventTrigger EventName="ClickChangeMold">
-                                <prism:InvokeCommandAction Command="{Binding  ChangeMoldCommand}"
-                                                           CommandParameter="{Binding ElementName=M23}" />
-                            </i:EventTrigger>
-                            <i:EventTrigger EventName="ClickBack">
-                                <prism:InvokeCommandAction Command="{Binding  BackCommand}" />
-                            </i:EventTrigger>
-                        </i:Interaction.Triggers>
-                    </components:MachineInformationDetail
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <materialDesign:Card Margin="10 10 10 5"
+                                         materialDesign:ShadowAssist.ShadowDepth="Depth3">
+                        <components:MachineInformationDetail MachineName="M24"
+                                                             x:Name="M24"
+                                                             CycleStandard="{Binding CycleStandard}"
+                                                             RealCycle="{Binding Cycle}"
+                                                             ProductCode="{Binding ProductId}"
+                                                             MoldCode="{Binding MoldId}"
+                                                             CountProduct="{Binding Count}"
+                                                             Animation1="{Binding A}"
+                                                             Animation2="{Binding B}"
+                                                             SetMold="{Binding SetMold}"
+                                                             SetCycle="{Binding SetCycle}"
+                                                             ContentBt="{Binding Content}"
+                                                             ListEvent="{Binding ListEvent}"
+                                                             ListProduct="{Binding ListProduct}"
+                                                             Product="{Binding Product}"
+                                                             Mode="{Binding Mode}"
+                                                             StatusBackground="{Binding Status,Converter={Converter:IntToColorConverter}}"
+                                                             Status="{Binding Status,Converter={Converter:StringtoStringStatusMachine}}"
+                                                             DataContext="{Binding DetailMachineViewModel24}">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="ClickChangeMold">
+                                    <prism:InvokeCommandAction Command="{Binding  ChangeMoldCommand}"
+                                                               CommandParameter="{Binding ElementName=M24}" />
+                                </i:EventTrigger>
+                                <i:EventTrigger EventName="ClickBack">
+                                    <prism:InvokeCommandAction Command="{Binding  BackCommand}" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </components:MachineInformationDetail>
+                    </materialDesign:Card>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <materialDesign:Card Margin="10 7.5 10 7.5"
+                                         materialDesign:ShadowAssist.ShadowDepth="Depth3">
+                        <components:MachineInformationDetail MachineName="M23"
+                                                             x:Name="M23"
+                                                             CycleStandard="{Binding CycleStandard}"
+                                                             RealCycle="{Binding Cycle}"
+                                                             ProductCode="{Binding ProductId}"
+                                                             MoldCode="{Binding MoldId}"
+                                                             CountProduct="{Binding Count}"
+                                                             Animation1="{Binding A}"
+                                                             Animation2="{Binding B}"
+                                                             SetMold="{Binding SetMold}"
+                                                             SetCycle="{Binding SetCycle}"
+                                                             ContentBt="{Binding Content}"
+                                                             ListEvent="{Binding ListEvent}"
+                                                             ListProduct="{Binding ListProduct}"
+                                                             Product="{Binding Product}"
+                                                             Mode="{Binding Mode}"
+                                                             StatusBackground="{Binding Status,Converter={Converter:IntToColorConverter}}"
+                                                             Status="{Binding Status,Converter={Converter:StringtoStringStatusMachine}}"
+                                                             DataContext="{Binding DetailMachineViewModel23}">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="ClickChangeMold">
+                                    <prism:InvokeCommandAction Command="{Binding  ChangeMoldCommand}"
+                                                               CommandParameter="{Binding ElementName=M23}" />
+                                </i:EventTrigger>
+                                <i:EventTrigger EventName="ClickBack">
+                                    <prism:InvokeCommandAction Command="{Binding  BackCommand}" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </components:MachineInformationDetail
                             >
-                </materialDesign:Card>
+                    </materialDesign:Card>
+                </Grid>
             </Grid>
+        </Grid>
+        <Grid>
+
         </Grid>
     </Grid>
 </UserControl>

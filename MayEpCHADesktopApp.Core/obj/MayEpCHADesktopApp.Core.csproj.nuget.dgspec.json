@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SISTRAIN\\WPF\\App SISTRAIN\\MAYEP_LVTN\\injection-molding-machine\\desktop_cha_injection-molding-machine_lvtn\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj": {}
+    "E:\\SISTRAIN\\WPF\\App SISTRAIN\\desktop_cha_injection-molding-machine_phase2\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj": {}
   },
   "projects": {
-    "E:\\SISTRAIN\\WPF\\App SISTRAIN\\MAYEP_LVTN\\injection-molding-machine\\desktop_cha_injection-molding-machine_lvtn\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj": {
+    "E:\\SISTRAIN\\WPF\\App SISTRAIN\\desktop_cha_injection-molding-machine_phase2\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\MAYEP_LVTN\\injection-molding-machine\\desktop_cha_injection-molding-machine_lvtn\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj",
+        "projectUniqueName": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\desktop_cha_injection-molding-machine_phase2\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj",
         "projectName": "MayEpCHADesktopApp.Core",
-        "projectPath": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\MAYEP_LVTN\\injection-molding-machine\\desktop_cha_injection-molding-machine_lvtn\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj",
+        "projectPath": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\desktop_cha_injection-molding-machine_phase2\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj",
         "packagesPath": "C:\\Users\\Quoc Vuong\\.nuget\\packages\\",
-        "outputPath": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\MAYEP_LVTN\\injection-molding-machine\\desktop_cha_injection-molding-machine_lvtn\\MayEpCHADesktopApp.Core\\obj\\",
+        "outputPath": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\desktop_cha_injection-molding-machine_phase2\\MayEpCHADesktopApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Quoc Vuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,9 +44,9 @@
               "target": "Package",
               "version": "[6.0.3, )"
             },
-            "LiveCharts.Wpf": {
+            "LiveCharts.Wpf.Core": {
               "target": "Package",
-              "version": "[0.9.7, )"
+              "version": "[0.9.8, )"
             },
             "MassTransit.Grpc": {
               "target": "Package",

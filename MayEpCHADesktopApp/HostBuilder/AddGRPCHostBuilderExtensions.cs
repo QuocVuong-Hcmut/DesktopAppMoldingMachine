@@ -37,11 +37,8 @@ namespace MayEpCHADesktopApp.HostBuilder
                             ));
                         e.Consumer<MachineMessageConsumer>();
                         e.Consumer<FeedbackMessageConsumer>();
-                        e.Consumer<UaDoubleDataConsumer>();
-                        e.Consumer<UaBooleanDataConsumer>();
-                        e.Consumer<UaIntegerDataConsumer>();
                        // e.Consumer<DaMessageConsumer>( );
-                        e.Consumer(( ) => new DaMessageConsumer( ));
+                        e.Consumer(( ) => new OpcMessageConsumer( ));
                     });
                 });
                 });

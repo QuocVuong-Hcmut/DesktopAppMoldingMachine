@@ -1,4 +1,4 @@
-﻿using ImmServiceContainers;
+﻿using  InjectionMoldingMachineDataAcquisitionService.Communication.Messages;
 using MassTransit;
 using MayEpCHADesktopApp.Core.Store;
 using MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels;

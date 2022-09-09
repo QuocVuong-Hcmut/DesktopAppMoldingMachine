@@ -35,8 +35,6 @@ namespace MayEpCHADesktopApp.HostBuilder
                           CreateExportWareHouseViewModel(serviceprovider, Store));
                 });
 
-
-
             });
 
             return host;

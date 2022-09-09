@@ -140,26 +140,29 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "LiveCharts/0.9.7": {
+      "LiveCharts.Core/0.9.8": {
         "type": "package",
         "compile": {
-          "lib/net45/LiveCharts.dll": {}
+          "lib/netstandard2.0/LiveCharts.dll": {}
         },
         "runtime": {
-          "lib/net45/LiveCharts.dll": {}
+          "lib/netstandard2.0/LiveCharts.dll": {}
         }
       },
-      "LiveCharts.Wpf/0.9.7": {
+      "LiveCharts.Wpf.Core/0.9.8": {
         "type": "package",
         "dependencies": {
-          "LiveCharts": "0.9.7"
+          "LiveCharts.Core": "0.9.8"
         },
         "compile": {
-          "lib/net45/LiveCharts.Wpf.dll": {}
+          "lib/net5.0-windows7.0/LiveCharts.Wpf.dll": {}
         },
         "runtime": {
-          "lib/net45/LiveCharts.Wpf.dll": {}
-        }
+          "lib/net5.0-windows7.0/LiveCharts.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       },
       "MassTransit/8.0.1": {
         "type": "package",
@@ -1303,7 +1306,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "EPPlus": "6.0.3",
-          "LiveCharts.Wpf": "0.9.7",
+          "LiveCharts.Wpf.Core": "0.9.8",
           "MassTransit.Grpc": "8.0.1",
           "Microsoft.Data.Sqlite.Core": "6.0.5",
           "Microsoft.EntityFrameworkCore": "6.0.5",
@@ -1549,44 +1552,32 @@
         "logo.png"
       ]
     },
-    "LiveCharts/0.9.7": {
-      "sha512": "p4xyBrUaNNfkWZSNsIle0r51cyVyFg0Yi0uBRZM5GQtdFiA/7guZHlffFyNUILIdux10Ch2hUaJpcZENVU9aaQ==",
+    "LiveCharts.Core/0.9.8": {
+      "sha512": "USb2TBOeER19X0ar5Zgki1ezjrSXBOmUoz3IqzTeksDm6hoaLFqs3iW9+wjHFuWNQGy9lLcVh2YIhhxVIg+zNQ==",
       "type": "package",
-      "path": "livecharts/0.9.7",
+      "path": "livecharts.core/0.9.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net40/LiveCharts.dll",
-        "lib/net40/LiveCharts.pdb",
-        "lib/net40/LiveCharts.xml",
-        "lib/net45/LiveCharts.dll",
-        "lib/net45/LiveCharts.pdb",
-        "lib/net45/LiveCharts.xml",
-        "lib/portable-net45+win8+wp8/LiveCharts.XML",
-        "lib/portable-net45+win8+wp8/LiveCharts.dll",
-        "lib/portable-net45+win8+wp8/LiveCharts.pdb",
-        "livecharts.0.9.7.nupkg.sha512",
-        "livecharts.nuspec",
-        "readme.txt"
+        "lib/netstandard2.0/LiveCharts.dll",
+        "livecharts.core.0.9.8.nupkg.sha512",
+        "livecharts.core.nuspec"
       ]
     },
-    "LiveCharts.Wpf/0.9.7": {
-      "sha512": "lv6YZoK0B4yWykMq5b9grZXtIbTj+OWu4sVN9GDpdgV6zffu64m4d5CW8KSjfSl9rB8VU649x1NZvhoU67hCDg==",
+    "LiveCharts.Wpf.Core/0.9.8": {
+      "sha512": "jMBdknuG3EOMKA0NaqqwMjhsZpRAzd0UqP0SlwXIBJ+ZoJg5TF9C4rDdKqInEs+RycYmIwmrZWvmfDxsM5MMJw==",
       "type": "package",
-      "path": "livecharts.wpf/0.9.7",
-      "hasTools": true,
+      "path": "livecharts.wpf.core/0.9.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net40/LiveCharts.Wpf.XML",
         "lib/net40/LiveCharts.Wpf.dll",
-        "lib/net40/LiveCharts.Wpf.pdb",
-        "lib/net45/LiveCharts.Wpf.XML",
-        "lib/net45/LiveCharts.Wpf.dll",
-        "lib/net45/LiveCharts.Wpf.pdb",
-        "livecharts.wpf.0.9.7.nupkg.sha512",
-        "livecharts.wpf.nuspec",
-        "tools/install.ps1"
+        "lib/net472/LiveCharts.Wpf.dll",
+        "lib/net5.0-windows7.0/LiveCharts.Wpf.dll",
+        "lib/netcoreapp3.1/LiveCharts.Wpf.dll",
+        "livecharts.wpf.core.0.9.8.nupkg.sha512",
+        "livecharts.wpf.core.nuspec"
       ]
     },
     "MassTransit/8.0.1": {
@@ -3450,7 +3441,7 @@
     "net6.0-windows7.0": [
       "EPPlus >= 6.0.3",
       "FontAwesome.WPF >= 4.7.0.9",
-      "LiveCharts.Wpf >= 0.9.7",
+      "LiveCharts.Wpf.Core >= 0.9.8",
       "MassTransit.Grpc >= 8.0.1",
       "MaterialDesignColors >= 2.0.5",
       "MaterialDesignThemes >= 4.4.0",
@@ -3471,11 +3462,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\MAYEP_LVTN\\injection-molding-machine\\desktop_cha_injection-molding-machine_lvtn\\MayEpCHADesktopApp\\MayEpCHADesktopApp.csproj",
+      "projectUniqueName": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\desktop_cha_injection-molding-machine_phase2\\MayEpCHADesktopApp\\MayEpCHADesktopApp.csproj",
       "projectName": "MayEpCHADesktopApp",
-      "projectPath": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\MAYEP_LVTN\\injection-molding-machine\\desktop_cha_injection-molding-machine_lvtn\\MayEpCHADesktopApp\\MayEpCHADesktopApp.csproj",
+      "projectPath": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\desktop_cha_injection-molding-machine_phase2\\MayEpCHADesktopApp\\MayEpCHADesktopApp.csproj",
       "packagesPath": "C:\\Users\\Quoc Vuong\\.nuget\\packages\\",
-      "outputPath": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\MAYEP_LVTN\\injection-molding-machine\\desktop_cha_injection-molding-machine_lvtn\\MayEpCHADesktopApp\\obj\\",
+      "outputPath": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\desktop_cha_injection-molding-machine_phase2\\MayEpCHADesktopApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Quoc Vuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3492,8 +3483,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "E:\\SISTRAIN\\WPF\\App SISTRAIN\\MAYEP_LVTN\\injection-molding-machine\\desktop_cha_injection-molding-machine_lvtn\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj": {
-              "projectPath": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\MAYEP_LVTN\\injection-molding-machine\\desktop_cha_injection-molding-machine_lvtn\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj"
+            "E:\\SISTRAIN\\WPF\\App SISTRAIN\\desktop_cha_injection-molding-machine_phase2\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj": {
+              "projectPath": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\desktop_cha_injection-molding-machine_phase2\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj"
             }
           }
         }
@@ -3516,9 +3507,9 @@
             "target": "Package",
             "version": "[4.7.0.9, )"
           },
-          "LiveCharts.Wpf": {
+          "LiveCharts.Wpf.Core": {
             "target": "Package",
-            "version": "[0.9.7, )"
+            "version": "[0.9.8, )"
           },
           "MassTransit.Grpc": {
             "target": "Package",
@@ -3598,26 +3589,6 @@
       "warningLevel": 1,
       "message": "Package 'FontAwesome.WPF 4.7.0.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
       "libraryId": "FontAwesome.WPF",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'LiveCharts 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "LiveCharts",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'LiveCharts.Wpf 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "LiveCharts.Wpf",
       "targetGraphs": [
         "net6.0-windows7.0"
       ]

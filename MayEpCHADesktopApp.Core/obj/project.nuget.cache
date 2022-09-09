@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uHAh54L4M+GpQoqgJ4Az2wHvAa80aC1my9eyUEhsdhgnmHPeJ35xg7A1MbMI4kFnt5JOsQH0hdYaafr2nTdeUQ==",
+  "dgSpecHash": "XT4xvUx200v7TPUNW0X3YTvNA6UuWWl4fxWyeAudivIMThCfmbb9Nw6iTi7G7O+SwGqdj1GP8Qn/nxr5slGasw==",
   "success": true,
-  "projectFilePath": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\MAYEP_LVTN\\injection-molding-machine\\desktop_cha_injection-molding-machine_lvtn\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj",
+  "projectFilePath": "E:\\SISTRAIN\\WPF\\App SISTRAIN\\desktop_cha_injection-molding-machine_phase2\\MayEpCHADesktopApp.Core\\MayEpCHADesktopApp.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Quoc Vuong\\.nuget\\packages\\epplus\\6.0.3\\epplus.6.0.3.nupkg.sha512",
     "C:\\Users\\Quoc Vuong\\.nuget\\packages\\epplus.interfaces\\6.0.0\\epplus.interfaces.6.0.0.nupkg.sha512",
@@ -13,8 +13,8 @@
     "C:\\Users\\Quoc Vuong\\.nuget\\packages\\grpc.net.client\\2.43.0\\grpc.net.client.2.43.0.nupkg.sha512",
     "C:\\Users\\Quoc Vuong\\.nuget\\packages\\grpc.net.common\\2.43.0\\grpc.net.common.2.43.0.nupkg.sha512",
     "C:\\Users\\Quoc Vuong\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\Quoc Vuong\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
-    "C:\\Users\\Quoc Vuong\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
+    "C:\\Users\\Quoc Vuong\\.nuget\\packages\\livecharts.core\\0.9.8\\livecharts.core.0.9.8.nupkg.sha512",
+    "C:\\Users\\Quoc Vuong\\.nuget\\packages\\livecharts.wpf.core\\0.9.8\\livecharts.wpf.core.0.9.8.nupkg.sha512",
     "C:\\Users\\Quoc Vuong\\.nuget\\packages\\masstransit\\8.0.1\\masstransit.8.0.1.nupkg.sha512",
     "C:\\Users\\Quoc Vuong\\.nuget\\packages\\masstransit.abstractions\\8.0.1\\masstransit.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\Quoc Vuong\\.nuget\\packages\\masstransit.grpc\\8.0.1\\masstransit.grpc.8.0.1.nupkg.sha512",
@@ -73,26 +73,5 @@
     "C:\\Users\\Quoc Vuong\\.nuget\\packages\\system.text.json\\6.0.2\\system.text.json.6.0.2.nupkg.sha512",
     "C:\\Users\\Quoc Vuong\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'LiveCharts 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "LiveCharts",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'LiveCharts.Wpf 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "LiveCharts.Wpf",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  "logs": []
 }
