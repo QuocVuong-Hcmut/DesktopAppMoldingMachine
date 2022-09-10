@@ -1,6 +1,7 @@
-﻿using System;
+﻿using InjectionMoldingMachineDataAcquisitionService.Communication.Messages;
+using System;
 
-namespace ImmServiceContainers;
+
 
 public class CommandMessage
 {
