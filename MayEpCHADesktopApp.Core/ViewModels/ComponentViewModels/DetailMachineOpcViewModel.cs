@@ -332,11 +332,15 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
             check=false;
 
         }
-        public void UpdateDataOpc (OpcMessage opcMessage )
+        public void UpdateDataOpc (UaMessage opcMessage )
         {
             switch ( opcMessage.Name )
             {
-                case "CycleTime":
+                case "CycleElapsed":
+                    Cycle=opcMessage.Value.ToString();
+                    break;
+                case "DoorOpenned":
+
                     break;
             }
         }
@@ -393,6 +397,7 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
         {
 
 
+
             Count=Message.CounterShot.ToString( );
             ProductId=Message.ProductId.ToString( );
             CycleStandard=Message.SetCycle.ToString( );
@@ -415,7 +420,10 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
                 eventMachine.Status=0;
                 eventMachine.DateTime=DateTime.Now;
                 eventMachine.CycleTime=Cycle;
-                ListEvent.Add(eventMachine);
+                if(Convert.ToInt32( Cycle ) > 110 && Convert.ToInt32(Cycle) < 130 )
+                {
+                    ListEvent.Add(eventMachine);
+                }
                 CollectionViewSource.GetDefaultView(ListEvent).Refresh( );
                 OnPropertyChanged("ListEvent");
                 StoreEvent(eventMachine,Message.MachineId);
@@ -426,7 +434,6 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
             B=true;
             A=true;
             B=false;
-
             //   }
             TemptCycle=Convert.ToInt32(Cycle);
         }

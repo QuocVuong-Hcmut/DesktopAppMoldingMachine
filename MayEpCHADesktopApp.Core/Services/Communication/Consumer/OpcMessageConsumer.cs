@@ -8,28 +8,29 @@ using System.Threading.Tasks;
 
 namespace MayEpCHADesktopApp.Core.Services.Communication.Consumer
 {
-    public class OpcMessageConsumer: IConsumer<OpcMessage>
+    public class OpcMessageConsumer: IConsumer<UaMessage>
     {
-        public static event Action<OpcMessage> M1;
-        public static event Action<OpcMessage> M2;
-        public static event Action<OpcMessage> M27;
-        public static event Action<OpcMessage> M28;
-        public static event Action<OpcMessage> L5;
-        public static event Action<OpcMessage> L6;
-        public static event Action<OpcMessage> L7;
-        public static event Action<OpcMessage> L8;
-        public static event Action<OpcMessage> L9;
-        public static event Action<OpcMessage> L10;
-        public static event Action<OpcMessage> L11;
-        public static event Action<OpcMessage> L12;
-        public async Task Consume (ConsumeContext<OpcMessage> context)
+        public static event Action<UaMessage> M1;
+        public static event Action<UaMessage> M2;
+        public static event Action<UaMessage> M27;
+        public static event Action<UaMessage> M28;
+        public static event Action<UaMessage> L2;
+        public static event Action<UaMessage> L5;
+        public static event Action<UaMessage> L6;
+        public static event Action<UaMessage> L7;
+        public static event Action<UaMessage> L8;
+        public static event Action<UaMessage> L9;
+        public static event Action<UaMessage> L10;
+        public static event Action<UaMessage> L11;
+        public static event Action<UaMessage> L12;
+        public async Task Consume (ConsumeContext<UaMessage> context)
         {
             var message = context.Message;
             UpdateData(message);
         }
-        private void UpdateData (OpcMessage opcMessage)
+        private void UpdateData (UaMessage opcMessage)
         {
-            switch ( "?" )
+            switch ( opcMessage .MachineId)
             {
                 case "M1":
                     M1?.Invoke(opcMessage);
@@ -42,6 +43,9 @@ namespace MayEpCHADesktopApp.Core.Services.Communication.Consumer
                     break;
                 case "M28":
                     M28?.Invoke(opcMessage);
+                    break;
+                case "L2":
+                    L2?.Invoke(opcMessage);
                     break;
                 case "L6":
                     L6?.Invoke(opcMessage);

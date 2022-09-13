@@ -18,13 +18,13 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ObservationViewModel
         public DetailMachineOpcViewModel DetailMachineViewModelL10 { get => _detailMachineViewModelL10; set { _detailMachineViewModelL10 = value; OnPropertyChanged(); } }
         private DetailMachineOpcViewModel _detailMachineViewModelL11;
         public DetailMachineOpcViewModel DetailMachineViewModelL11 { get => _detailMachineViewModelL11; set { _detailMachineViewModelL11 = value; OnPropertyChanged(); } }
-        private DetailMachineViewModel _detailMachineViewModelL12;
-        public DetailMachineViewModel DetailMachineViewModelL12 { get => _detailMachineViewModelL12; set { _detailMachineViewModelL12 = value; OnPropertyChanged(); } }
+        private DetailMachineOpcViewModel _detailMachineViewModelL12;
+        public DetailMachineOpcViewModel DetailMachineViewModelL12 { get => _detailMachineViewModelL12; set { _detailMachineViewModelL12 = value; OnPropertyChanged(); } }
 
         public ObservationMachinePage7ViewModel (DetailMachineOpcViewModel detailMachineViewModel1,
                                                 DetailMachineOpcViewModel detailMachineViewModel2,
                                                 DetailMachineOpcViewModel detailMachineViewModel3,
-                                                DetailMachineViewModel detailMachineViewModel4
+                                                DetailMachineOpcViewModel detailMachineViewModel4
                                          
             )
         {
@@ -39,6 +39,7 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ObservationViewModel
             MachineMessageConsumer.ML10+=DetailMachineViewModelL10.GetMachineStatus;
             CycleMessageConsumer.ML12 += DetailMachineViewModelL12.GetCycleMessage;
             MachineMessageConsumer.ML12 += DetailMachineViewModelL12.GetMachineStatus;
+            OpcMessageConsumer.L12+=DetailMachineViewModelL12.UpdateDataOpc;
             DetailMachineViewModelL9.UpdateViewConfiguration("L9");
             DetailMachineViewModelL10.UpdateViewConfiguration("L10");
             DetailMachineViewModelL11.UpdateViewConfiguration("L11");

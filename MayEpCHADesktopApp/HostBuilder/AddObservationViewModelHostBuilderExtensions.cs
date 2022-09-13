@@ -97,7 +97,7 @@ namespace MayEpCHADesktopApp.HostBuilder
                     new ObservationMachinePage7ViewModel(serviceProvider.GetRequiredService<DetailMachineOpcViewModel>(),
                                                     serviceProvider.GetRequiredService<DetailMachineOpcViewModel>(),
                                                     serviceProvider.GetRequiredService<DetailMachineOpcViewModel>(),
-                                                    serviceProvider.GetRequiredService<DetailMachineViewModel>()
+                                                    serviceProvider.GetRequiredService<DetailMachineOpcViewModel>()
                                                  
 
 );
