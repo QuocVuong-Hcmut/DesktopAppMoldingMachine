@@ -100,7 +100,7 @@ namespace MayEpCHADesktopApp.Core.ViewModels.SettingsViewModels
             _busControl=busControl;
             _apiServices.ChangeConfigEvent+=Load;
             ListConfigurationShift2=new ObservableCollection<Configuration>( );
-            AddCommandShift2=new RelayCommand(async ( ) => await Add( ));
+            AddCommandShift2=new RelayCommand(async ( ) => await Add1( ));
             DeleteCommandShift2=new RelayCommand(async ( ) => await Delete( ));
             LoadCommand=new RelayCommand(async ( ) => Load( ));
             TSendConfigShift.Tick+=ActionTimerSendConfig;

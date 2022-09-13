@@ -178,16 +178,17 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ReportViewModels
             GetTotalProduct( );
             GetTotalMachinne( );
             //  GetTotalPreShiftReport( );
-           // LoadDemo( );
+            //LoadDemo( );
             Date=DateTime.Now;
 
         }
         public async void LoadDemo ( )
         {
-            ListPreShiftReport=await _apiServices.GetPreShiftReportTotal("");
+            ListPreShiftReport.Clear();
+            ListPreShiftReport =await _apiServices.GetPreShiftReportTotal("");
             foreach ( var item in ListPreShiftReport )
             {
-                if ( item.MachineId=="L8"&&item.Date.Day==25 )
+                if ( item.MachineId=="L6"&&item.Date.Day==13 )
                 {
                     var ListCycle = await LoadCSVCycle(item.MachineId);
                     item.TotalQuantity=ListCycle.Length-1;
@@ -195,6 +196,7 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ReportViewModels
                     item.WorkTime=await LoadWorkTime("");
                     item.PauseTime=12*60-item.WorkTime;
                     item.Shots=GetListShot("");
+                    item.StopTime=DateTime.Now;
                     ListShiftReport.Add(item);
                 }
             }
@@ -242,35 +244,41 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ReportViewModels
             //  {
             // var statusData = File.ReadAllLines(@$"{Url}{machineId}\C{shift}{day+month+year}");
             var statusData = File.ReadAllLines(@$"E:\SISTRAIN\WPF\App SISTRAIN\Data Molding Machine\DataNew\S217082022.csv");
-            for ( int i = 0;i<statusData.Length-5;i++ )
+            try
             {
-
-                ContentCurrent=statusData[i].Split(',');
-                ContentFuture=statusData[i+1].Split(',');
-                if ( ContentCurrent[1]==ContentFuture[1]&&ContentCurrent[1]=="4" )
+                for ( int i = 0;i<statusData.Length-3;i++ )
                 {
-                    while ( true )
+
+                    ContentCurrent=statusData[i].Split(',');
+                    ContentFuture=statusData[i+1].Split(',');
+                    if ( ContentCurrent[1]==ContentFuture[1]&&ContentCurrent[1]=="4" )
                     {
-                        ContentCurrent=statusData[i+count].Split(',');
-                        ContentFuture=statusData[i+1+count].Split(',');
-                        if ( ContentCurrent[1]==ContentFuture[1] )
+                        while ( true )
                         {
-                            count++;
+                            ContentCurrent=statusData[i+count].Split(',');
+                            ContentFuture=statusData[i+1+count].Split(',');
+                            if ( ContentCurrent[1]==ContentFuture[1] )
+                            {
+                                count++;
+
+                            }
+                            else
+                            {
+                                ContentCurrent=statusData[i].Split(',');
+                                ContentFuture=statusData[i+count].Split(',');
+                                TimeTotal+=(Convert.ToDateTime(ContentFuture[0])-Convert.ToDateTime(ContentCurrent[0])).TotalMinutes;
+                                break;
+                            }
 
                         }
-                        else
-                        {
-                            ContentCurrent=statusData[i].Split(',');
-                            ContentFuture=statusData[i+count].Split(',');
-                            TimeTotal+=(Convert.ToDateTime(ContentFuture[0])-Convert.ToDateTime(ContentCurrent[0])).TotalMinutes;
-                            break;
-                        }
-
+                        i=i+count;
                     }
-                    i=i+count;
+                    count=0;
                 }
-                count=0;
+            } catch {
+                return TimeTotal;
             }
+            
 
             //    }
             //catch
@@ -620,7 +628,8 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ReportViewModels
         public async void GetTotalPreShiftReport ( )
         {
             ListPreShiftReport=await _apiServices.GetPreShiftReportTotal("");
-            Load( );
+            LoadDemo( );
+            //Load( );
 
         }
         #endregion
