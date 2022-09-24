@@ -109,7 +109,7 @@ namespace MayEpCHADesktopApp.Views.AlertView {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MayEpCHADesktopApp;component/views/alertview/alertview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MayEpCHADesktopApp;V1.0.0.0;component/views/alertview/alertview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\AlertView\AlertView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -77,7 +77,8 @@ namespace MayEpCHADesktopApp.Views.SettingView {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MayEpCHADesktopApp;component/views/settingview/settingspreviousview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MayEpCHADesktopApp;V1.0.0.0;component/views/settingview/settingspreviousview.xam" +
+                    "l", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\SettingView\SettingsPreviousView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

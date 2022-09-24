@@ -376,7 +376,7 @@
                     <materialDesign:DialogHost.DialogContent>
                         <Grid Grid.Row="2"
                               Width="350"
-                              Height="270"
+                              Height="250"
                               >
                             <ListView ItemsSource="{Binding ListData}">
                                 <ListView.View>

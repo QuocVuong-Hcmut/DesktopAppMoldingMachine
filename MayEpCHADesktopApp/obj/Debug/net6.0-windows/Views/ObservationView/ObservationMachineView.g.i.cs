@@ -76,7 +76,8 @@ namespace MayEpCHADesktopApp.Views.ObservationView {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MayEpCHADesktopApp;component/views/observationview/observationmachineview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MayEpCHADesktopApp;V1.0.0.0;component/views/observationview/observationmachinevi" +
+                    "ew.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\ObservationView\ObservationMachineView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

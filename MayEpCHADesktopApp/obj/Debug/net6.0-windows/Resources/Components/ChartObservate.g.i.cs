@@ -65,7 +65,7 @@ namespace MayEpCHADesktopApp.Resources.Components {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MayEpCHADesktopApp;component/resources/components/chartobservate.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MayEpCHADesktopApp;V1.0.0.0;component/resources/components/chartobservate.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Resources\Components\ChartObservate.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

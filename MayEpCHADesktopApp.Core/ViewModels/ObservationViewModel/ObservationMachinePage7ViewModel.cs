@@ -40,6 +40,9 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ObservationViewModel
             CycleMessageConsumer.ML12 += DetailMachineViewModelL12.GetCycleMessage;
             MachineMessageConsumer.ML12 += DetailMachineViewModelL12.GetMachineStatus;
             OpcMessageConsumer.L12+=DetailMachineViewModelL12.UpdateDataOpc;
+            OpcMessageConsumer.L11+=DetailMachineViewModelL11.UpdateDataOpc;
+            OpcMessageConsumer.L10+=DetailMachineViewModelL10.UpdateDataOpc;
+            OpcMessageConsumer.L9+=DetailMachineViewModelL9.UpdateDataOpc;
             DetailMachineViewModelL9.UpdateViewConfiguration("L9");
             DetailMachineViewModelL10.UpdateViewConfiguration("L10");
             DetailMachineViewModelL11.UpdateViewConfiguration("L11");

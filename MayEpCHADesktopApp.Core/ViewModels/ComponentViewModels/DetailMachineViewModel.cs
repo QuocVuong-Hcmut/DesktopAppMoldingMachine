@@ -159,6 +159,7 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
             ChangeMoldCommand=new RelayObjectCommand<object>((p) => { return true; },async (p) => Pause(p));
             BackCommand=new RelayCommand(async ( ) => Back( ));
         }
+
         private void Back ( )
         {
             switch ( ContentBtBack )

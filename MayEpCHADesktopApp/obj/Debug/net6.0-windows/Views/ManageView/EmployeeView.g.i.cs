@@ -67,7 +67,7 @@ namespace MayEpCHADesktopApp.Views.ManageView {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MayEpCHADesktopApp;component/views/manageview/employeeview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MayEpCHADesktopApp;V1.0.0.0;component/views/manageview/employeeview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\ManageView\EmployeeView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

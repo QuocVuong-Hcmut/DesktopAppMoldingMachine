@@ -150,7 +150,7 @@
                     <components:MachineInformationDetail MachineName="L12"
                                                          x:Name="L12"
                                                          CycleStandard="{Binding CycleStandard}"
-                                                         RealCycle="{Binding Cycle}"
+                                                         RealCycle="{Binding Cycle, UpdateSourceTrigger=PropertyChanged}"
                                                          ProductCode="{Binding ProductId}"
                                                          MoldCode="{Binding MoldId}"
                                                          CountProduct="{Binding Count}"

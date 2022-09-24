@@ -164,15 +164,28 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
         {
             ListData=new( );
             ListData.Add(new DataOpcMonitor("Chu kì ép",45));
-            ListData.Add(new DataOpcMonitor("Số lượng",45));
+            ListData.Add(new DataOpcMonitor("Thời gian mở cửa",0));
+            ListData.Add(new DataOpcMonitor("Nhiệt độ cảo cài đặt",45));
+            ListData.Add(new DataOpcMonitor("Mức dầu có ổn hay không?",45));
+            ListData.Add(new DataOpcMonitor("Cửa đóng",45));
+            ListData.Add(new DataOpcMonitor("Đang bơm nhựa",45));
+            ListData.Add(new DataOpcMonitor("Động cơ mở",45));
+            ListData.Add(new DataOpcMonitor("Thời gian làm nguội cài đặt",45));
+            ListData.Add(new DataOpcMonitor("Thời gian bơm nhựa",45));
+            ListData.Add(new DataOpcMonitor("Thời gian khuôn đóng",45));
+            ListData.Add(new DataOpcMonitor("Thời gian khuôn mở",45));
+            ListData.Add(new DataOpcMonitor("Khuôn đang đóng",45));
+            ListData.Add(new DataOpcMonitor("Nhiệt độ động cơ",45));
             ListData.Add(new DataOpcMonitor("Nhiệt độ dầu",45));
-            ListData.Add(new DataOpcMonitor("Nhiệt độ nòng cảo",45));
-            ListData.Add(new DataOpcMonitor("Nhiệt độ sôi",45));
-            ListData.Add(new DataOpcMonitor("Chu kì ép",45));
-            ListData.Add(new DataOpcMonitor("Số lượng",45));
-            ListData.Add(new DataOpcMonitor("Nhiệt độ dầu",45));
-            ListData.Add(new DataOpcMonitor("Nhiệt độ nòng cảo",45));
-            ListData.Add(new DataOpcMonitor("Nhiệt độ sôi",45));
+            ListData.Add(new DataOpcMonitor("Đếm sản phẩm",45));
+            ListData.Add(new DataOpcMonitor("Áp lực hệ 2",45));
+            ListData.Add(new DataOpcMonitor("Áp lực hệ 3",45));
+            ListData.Add(new DataOpcMonitor("Nhiệt độ thực tế nòng cảo",45));
+            ListData.Add(new DataOpcMonitor("Nhiệt độ dầu cài đặt",45));
+            ListData.Add(new DataOpcMonitor("Áp lực của bơm 1",45));
+            ListData.Add(new DataOpcMonitor("Tốc độ của bơm 1",45));
+            ListData.Add(new DataOpcMonitor("Tốc độ khuôn",45));
+            ListData.Add(new DataOpcMonitor("Áp lực mở khuôn",45));
         }
         private void Back ( )
         {
@@ -334,15 +347,87 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
         }
         public void UpdateDataOpc (UaMessage opcMessage )
         {
-            switch ( opcMessage.Name )
+            Application.Current.Dispatcher.Invoke(new Action(( ) =>
             {
-                case "CycleElapsed":
-                    Cycle=opcMessage.Value.ToString();
-                    break;
-                case "DoorOpenned":
+                switch ( opcMessage.Name )
+                {
+                    case "CycleElapsed":
+                        Cycle=opcMessage.Value.ToString( );
+                        ListData[0].Value=Cycle;
+                        break;
+                    case "DoorOpenned":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
 
-                    break;
-            }
+                    case "sv_ActSetValueZone1":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "di_OilLevelOk":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "di_SafetyDoorMid":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "do_Inject1":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "do_MotorOn":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+
+                    case "CoolTime":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "InjectTime":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "InjectMovement":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "MoldCloseTime":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "MoldOpenTime":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "MoldClosed":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "MotorTemp":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "OilTemp":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "ShotCounter":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "SysUnit2Pressure":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "SysUnit3Pressure":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "TempZone1 … 16":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "OilTemp_Set":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "Pump1PressureDisplay":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "Pump1VelocityDisplay":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "rMoldOpenVelocity":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                    case "rMoldOpenPressure":
+                        ListData[0].Value=opcMessage.Value.ToString( );
+                        break;
+                }
+            }));
         }
         public void GetMachineStatus (MachineMessage Message)
         {
@@ -352,7 +437,6 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
             {
                 case EMachineStatus.PowerOff:
                     Status="1";
-
                     eventMachine.NameEvent="Power off";
                     eventMachine.Status=0;
                     eventMachine.DateTime=DateTime.Now;
@@ -363,7 +447,6 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
                     break;
                 case EMachineStatus.Disconnect:
                     Status="3";
-
                     eventMachine.NameEvent="Ngắt kết nối";
                     eventMachine.Status=0;
                     eventMachine.DateTime=DateTime.Now;
@@ -380,7 +463,6 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
                     break;
                 case EMachineStatus.ErrorOnGoing:
                     Status="7";
-
                     eventMachine.NameEvent="ErrorOnGoing";
                     eventMachine.Status=0;
                     eventMachine.DateTime=DateTime.Now;
@@ -395,26 +477,22 @@ namespace MayEpCHADesktopApp.Core.ViewModels.ComponentViewModels
         public int TemptCycle;
         public void GetCycleMessage (CycleMessage Message)
         {
-
-
-
-            Count=Message.CounterShot.ToString( );
-            ProductId=Message.ProductId.ToString( );
-            CycleStandard=Message.SetCycle.ToString( );
-            Cycle=Message.CycleTime.ToString( );
-            MoldId=Message.MoldId.ToString( );
-            if ( Message.Mode==1 )
-            {
-                Mode="Tự động";
-            }
-            else
-            {
-                Mode="Bán Tự động";
-            }
-
             // if(Math.Abs((Convert.ToInt32(Cycle)-Convert.ToInt32(CycleStandard))*10) > (Convert.ToInt32(CycleStandard)) || true ){
             Application.Current.Dispatcher.Invoke(new Action(( ) =>
             {
+                Count=Message.CounterShot.ToString( );
+                ProductId=Message.ProductId.ToString( );
+                CycleStandard=Message.SetCycle.ToString( );
+                Cycle=Message.CycleTime.ToString( );
+                MoldId=Message.MoldId.ToString( );
+                if ( Message.Mode==1 )
+                {
+                    Mode="Tự động";
+                }
+                else
+                {
+                    Mode="Bán Tự động";
+                }
                 Services.Communication.ModelMQTT.EventMachine eventMachine = new Services.Communication.ModelMQTT.EventMachine( );
                 eventMachine.NameEvent="Lỗi chu kì ép";
                 eventMachine.Status=0;
